@@ -1,0 +1,306 @@
+Id	P1	P2	Step	Cycle	Group	umc1166	bnlg1083	umc11	gsy271	gsy56	umc161	umc1553	umc1009	umc134l	csu143	bnlg1138	umc5a	hi096	gsy4	gsy315	umc1346	umc104b	umc12a	bnlg1444	umc1418	umc2046	umc1101	bnlg1337	hi076	dupssr9	umc110	csu37a	csu5	bnlg2235	umc152	hi115	umc12b	umc89	gsy308	umc30	gsy53a	umc1196	bnlg1450	bnlg1185
+F2	a	a	IL	IL		A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A
+F252	b	b	IL	IL		B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B	B
+f1	F2	F252	CR	F1		A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B
+1	f1	f1	S2	F3	G1	A	A	A	A	B	B	B	B	A	A	A	A	B	B/-	B	B	-	B/-	B	A	B	B	B	B	A/B	A/B	B	B	A	B	B	B/-	A/B	-	A/B	A	A	A	A
+2	f1	f1	S2	F3	G1	A	A	A	A	A/B	A	A	A/B	A	A	A/B	A/B	A/B	B/-	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-	A/B	A/B	B/-
+3	f1	f1	S2	F3	G1	A/B	A	A	A	A/B	A/B	A	A	B	A	A/B	A/B	B	B/-	B	A/B	B	B/-	B	B	A	A	A	A	A	A/B	A/B	A/B	A/B	A/B	A/B	B/-	B	B/-	A/B	A	A	A	B/-
+4	f1	f1	S2	F3	G1	B	B	A/B	B/-	A	A/B	B	A	A	A	A	A	B	B/-	B	B	B	B/-	B	B	A/B	A/B	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B	B/-
+5	f1	f1	S2	F3	G1	B	B	B	B/-	A/B	A/B	A	-	A/B	A/B	A/B	A/B	B	B/-	A	A	A	A	A	A	A	A	A/B	B	A	A	A	A	A	A/B	B	B/-	B	B/-	A	B/-	B	A	A
+6	f1	f1	S2	F3	G1	B	B	B	B/-	A	A	A	A	B	B	B	B	A	A	A	A	A	A	A	A	B	B	A	A	B	A	A	B	A	A	A	B/-	A/B	B/-	A	B/-	A/B	A/B	B/-
+7	f1	f1	S2	F3	G1	A	A	A	A	A	A	A	A	A/B	A	B	B	-	B/-	A/B	-	A/B	B/-	-	B	B	-	-	-	A	A	A	A	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+8	f1	f1	S2	F3	G1	B	B	B	B/-	A/B	A/B	A/B	A/B	A	B	B	B	A/B	B/-	B	A/B	B	B/-	B	A/B	A/B	B	-	B	B	A/B	A/B	A/B	A	A	A	B/-	B	B/-	B	A	B	A/B	B/-
+9	f1	f1	S2	F3	G1	B	A/B	A/B	B/-	B	B	B	B	B	A/B	B	A/B	B	B/-	B	B	B	B/-	A/B	B	A	A/B	A/B	A/B	A/B	A/B	A	A	A/B	B	B	B/-	B	B/-	B	A	A	A	A
+10	f1	f1	S2	F3	G1	A/B	B	B	A	B	B	B	B	A	B	B	B	B	B/-	B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	B	B	A/B	A	A	A	A	A	A	A	A/B	B/-	A/B	A/B	B/-
+11	f1	f1	S2	F3	G2	B	B	B	B/-	A/B	A/B	A	A	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	B	A	A	A	A	A	B	B/-	A/B	A	A
+12	f1	f1	S2	F3	G2	A/B	A/B	B	B/-	B	B	B	B	B	A	A/B	A/B	A	A	-	A	A	B/-	B	B	B	B	B	B	B	B	B	B	A	A/B	-	B/-	B	B/-	A/B	A	B	B	B/-
+13	f1	f1	S2	F3	G2	A	A	A	A	B	A	A	A	B	B	B	B	A	A	A	A	A	A	A	-	B	B	B	B	A	A	A	B	B	B	B	A	A	A	A	B/-	B	B	B/-
+14	f1	f1	S2	F3	G2	A	A	A	A	A	B	B	B	A/B	A/B	A/B	B	B	B/-	B	B	B	B/-	A/B	A/B	A/B	A/B	-	A/B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A
+15	f1	f1	S2	F3	G2	A/B	B	A	A	B	B	B	B	A	A	A	A	A	A	A/B	A/B	B	B/-	B	B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A	A	A	A	B/-	B	B	B/-
+16	f1	f1	S2	F3	G2	A/B	B	A/B	B/-	B	B	B	B	B	B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	A/B	A/B	B	B	B	B	B	B	B	B	A/B	A/B	A/B	B/-	B	B/-	A/B	B/-	B	A/B	B/-
+17	f1	f1	S2	F3	G2	B	B	B	A	B	A	A	A	A/B	A/B	A/B	B	A/B	B/-	A/B	B	B	B/-	B	B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	B	B/-
+18	f1	f1	S2	F3	G2	A/B	A/B	A/B	B/-	B	A/B	A/B	B	B	B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	B	B	B	B	A/B	B	-	A	A	B	A/B	B	B	B/-	-	A	A	B/-	B	A/B	B/-
+19	f1	f1	S2	F3	G2	A	B	A/B	B/-	B	A	A/B	A/B	B	B	B	B	A	B/-	-	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A	B	B	B	B/-	B	B/-	B	B/-	A	A	B/-
+20	f1	f1	S2	F3	G2	A/B	B	B	B/-	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	-	B	A/B	B/-	A/B	A/B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	B/-	A/B	B/-	A/B	A	B	B	B/-
+21	f1	f1	S2	F3	G3	A	A	B	B/-	A/B	A/B	A/B	B	B	B	B	B	B	B/-	-	B	B	B/-	B	B	B	B	A	A	A/B	A/B	B	B	A	A	A	A	A	A	A	B/-	A	A	B/-
+22	f1	f1	S2	F3	G3	A	A/B	A/B	B/-	A	A	A	A	A/B	A/B	B	B	A	B/-	A	A	A	A	A	A	A	A	A	A	A/B	A	A	A/B	A	A	A	A	A	A	A	A	A/B	A/B	B/-
+23	f1	f1	S2	F3	G3	B	A/B	A/B	B/-	B	B	B	A	B	B	B	B	B	B/-	B	B	A	A	A	A	A/B	A/B	A/B	A/B	B	A	A	A	B	B	B	B/-	B	-	B	B/-	A/B	A/B	B/-
+24	f1	f1	S2	F3	G3	B	A	A/B	B/-	A/B	B	B	B	A/B	B	B	B	B	B/-	-	A	A	A	A	A	A/B	A/B	B	B	B	A/B	A	B	A	A/B	B	B/-	B	A	A	A	A	A	B/-
+25	f1	f1	S2	F3	G3	A/B	A/B	A/B	A	B	B	B	A/B	-	A/B	A/B	A	A	A	-	A	A	A	A/B	A	A/B	A/B	B	B	A/B	-	A/B	-	A/B	A/B	A/B	A	A	-	-	B/-	B	A/B	B/-
+26	f1	f1	S2	F3	G3	A/B	A/B	A	A	A/B	A/B	A/B	A/B	B	B	B	B	B	B/-	B	B	A/B	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A/B	A/B	B/-	B	B/-	A/B	A	A	A	B/-
+27	f1	f1	S2	F3	G3	B	A	A	A	B	A	A	A	A/B	B	A/B	A/B	A	A	A	A	A/B	A	B	A	A	A	B	A/B	A/B	A/B	A/B	B	A	A	A	B/-	A/B	B/-	B	B/-	A	A	A
+28	f1	f1	S2	F3	G3	B	B	B	B/-	A	A	A	A	B	A	A	A	B	B/-	B	B	-	A	A	A	B	B	B	B	A	B	B	B	-	A/B	B	B/-	B	B/-	B	B/-	B	B	B/-
+29	f1	f1	S2	F3	G3	A/B	B	B	B/-	A	A	A	A	A	A	A	A	A	A	-	A	A/B	A	A	A	B	B	B	B	B	B	B	B	B	A/B	A/B	A	A	A	A	B/-	B	A	A
+30	f1	f1	S2	F3	G3	B	A	A	A	A/B	A/B	B	A/B	B	B	B	B	B	B/-	-	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A/B	B	B	B/-	B	B/-	B	-	A/B	A/B	A
+31	f1	f1	S2	F3	G2	B	B	B	B/-	B	B	B	B	A	A/B	A/B	A/B	A	A	A	A	A	B/-	A/B	A/B	B	B	B	A/B	A	A	A	A	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+32	f1	f1	S2	F3	G2	A	A	A	A	A/B	A/B	A/B	A/B	B	B	B	B	A/B	B/-	B	B	A	B/-	B	B	A	A	A/B	A/B	A	A	A	A	A	A/B	A/B	B/-	A/B	-	A/B	A	A	A	A
+33	f1	f1	S2	F3	G2	B	B	A	A	A	A	A	A	B	A	A	A	A/B	B/-	A/B	A/B	B	B/-	B	B	B	B	B	B	B	B	B	B	A	A	A	B/-	A	A	A	B/-	A/B	A/B	B/-
+34	f1	f1	S2	F3	G2	B	A/B	A/B	B/-	B	A/B	B	A	A	A	A/B	A/B	B	B/-	B	B	B	B/-	A/B	A/B	B	B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A	A	A	B/-	A/B	A/B	B/-
+35	f1	f1	S2	F3	G2	A/B	A/B	B	B/-	B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	B	A/B	A	A	A	A	A	A	A	A/B	A/B	B/-	B	B/-	B	B/-	B	B	B/-
+36	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A/B	A/B	A	B	B	B	B	B	B/-	B	B	B	B/-	B	B	B	B	B	B	B	B	B	B	B	B	B	B/-	A/B	B/-	A/B	A	A	A	A
+37	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	B	A/B	B	B	A/B	A	A/B	B	B/-	B	B	B	B/-	B	B	B	B	B	B	A	A	A	A/B	B	A/B	A/B	A	A	A	A	A	A/B	A/B	B/-
+38	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	B	A/B	A/B	A/B	B	B/-	B	B	B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B	B/-
+39	f1	f1	S2	F3		A/B	B	B	B/-	B	B	A/B	A	A	A	A	A	B	B/-	B	B	B	B/-	B	A/B	A	A	A	A	A	A	A	A	B	A	A	B/-	B	B/-	B	A	B	B	B/-
+40	f1	f1	S2	F3	G4	A	A	A	A	B	B	B	B	A	A	A	A/B	A/B	B/-	A/B	-	A/B	B/-	A/B	A/B	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	B/-
+41	f1	f1	S2	F3	G5	B	A	A	B/-	A/B	A	A/B	A	B	B	B	A/B	A	A	A	A	A	B/-	B	B	A	A	A	A	B	A	A	B	A	A/B	A/B	B/-	A/B	B/-	A/B	B/-	B	B	B/-
+42	f1	f1	S2	F3	G5	B	A/B	A/B	A	B	B	B	A	A	A	A	A/B	B	B/-	B	B	B	B/-	B	B	A	A	A	A	B	B	B	B	B	B	B	B/-	A/B	B/-	A/B	B/-	B	A	A
+43	f1	f1	S2	F3		A	B	B	B/-	B	A	A	A	A/B	B	B	B	A	A	A	A	B	B/-	B	B	B	B	-	B	A	A	A	A/B	A/B	A/B	A/B	A	A	B/-	B	A	A	A	A
+44	f1	f1	S2	F3		A/B	A/B	A	A	A/B	A/B	B	B	A	A/B	A/B	A/B	A/B	B/-	A/B	-	A/B	B/-	B	B	-	A/B	A/B	A/B	A/B	A/B	A/B	A	B	B	A/B	B/-	A/B	B/-	A/B	B/-	A/B	A/B	B/-
+45	f1	f1	S2	F3		A	A	A	A	B	B	B	B	A	A	A	A	B	B/-	-	B	A/B	B/-	A/B	A/B	A	A	A	A/B	A/B	A	A	A	A/B	B	B	B/-	B	B/-	B	-	A	A	A
+46	f1	f1	S2	F3	G6	A	A/B	B	B/-	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A/B	A/B	A/B	B/-	B	B/-	A	B/-	A/B	A/B	B/-
+47	f1	f1	S2	F3	G6	-	-	A	A	A/B	A/B	-	-	A/B	A/B	-	A/B	-	A	A	-	B	B/-	-	-	-	-	-	-	-	B	B	B	-	A/B	-	B/-	A/B	B/-	B	B/-	-	-	-
+48	f1	f1	S2	F3	G6	B	A	-	B/-	B	A/B	A/B	A/B	B	B	B	B	-	B/-	-	A/B	B	B/-	-	B	A/B	A/B	-	A	A	A	A	A	B	A	A	A	A	A	A/B	B/-	A/B	A/B	B/-
+49	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	A/B	-	A/B	A/B	A	A	A	A/B	B/-	A	A/B	A	A	A	A	A	A	A	A	B	B	B	A	A/B	A/B	B	B/-	B	B/-	B	B/-	A/B	A/B	B/-
+50	f1	f1	S2	F3		A	A	A	A	B	B	B	-	A	A	A	A	A	A	A	A	A/B	B/-	B	B	B	B	B	B	A/B	A/B	A/B	A/B	B	A/B	B	B/-	B	B/-	B	B/-	B	B	B/-
+51	f1	f1	S2	F3		A	A/B	A/B	B/-	A	A/B	A/B	B	A/B	A/B	A/B	A/B	B	B/-	A/B	A/B	A/B	B/-	B	B	A/B	A/B	B	B	A	A	A	A	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+52	f1	f1	S2	F3		A/B	B	B	B/-	A/B	A/B	B	A/B	A	A	A	A	B	B/-	B	B	B	A	A/B	A	A/B	A/B	A/B	A/B	B	B	B	B	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+53	f1	f1	S2	F3		A/B	A	A	A	A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A/B	A	A	A	A	A	A	A/B	A/B	A	A	A	A	B	B	A/B	B/-	A/B	B/-	A/B	A	A	A	B/-
+54	f1	f1	S2	F3		A	A	A	A	A	A	A	A	B	A/B	B	B	B	B/-	A/B	A/B	A/B	B/-	A/B	A/B	B	B	-	B	B	B	B	A/B	A/B	A	A	A	A	B/-	B	A	A	A	A
+55	f1	f1	S2	F3		A	A	A	A	A	A/B	A	A	B	B	B	B	B	B/-	B	B	A/B	B/-	B	B	A	A	A	A	A/B	B	B	B	A/B	A/B	A/B	B/-	A/B	A	B	A	A	A	A
+56	f1	f1	S2	F3		A	A/B	A/B	B/-	B	B	B	A	A/B	A/B	A/B	A/B	B	B/-	B	B	A/B	B/-	B	B	B	B	A/B	A/B	B	B	B	B	A	A	A	A	A	B/-	B	A	A	A	A
+57	f1	f1	S2	F3		B	A/B	B	B/-	A/B	A	A	A/B	B	B	B	A/B	A	A	A	B	B	B/-	B	B	A	A	A	A	B	B	B	A/B	A/B	A/B	A/B	B/-	B	B/-	B	A	A	A	A
+58	f1	f1	S2	F3		A	B	B	B/-	A	A	A	A	A	A	A	A/B	A/B	B/-	A/B	A/B	A	B/-	A	A	B	B	B	B	B	B	B	B	A/B	A/B	A/B	B/-	A/B	B/-	A	B/-	B	B	B/-
+59	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A	A	A	B	B/-	B	B	B	B/-	B	B	B	B	A	A	A	A	A	A	A/B	A/B	A/B	B/-	B	A	A	B/-	B	B	A
+60	f1	f1	S2	F3		A	A	A/B	B/-	A	A/B	B	B	B	B	B	B	B	B/-	A/B	B	A/B	B/-	A/B	A/B	A/B	A/B	A	A	B	B	B	B	B	B	B	B/-	B	A	A	B/-	B	A/B	B/-
+61	f1	f1	S2	F3		B	B	B	B/-	B	B	B	A	A/B	B	B	B	A	A	A	A	B	B/-	B	B	A/B	A/B	-	A	A/B	A/B	A/B	A/B	A	A	A	B/-	B	B/-	A	A	A	A	A
+62	f1	f1	S2	F3		B	B	B	B/-	A	A	A	B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A/B	B	A/B	A/B	B	B	B	B/-	B	B/-	A	B/-	B	B	B/-
+63	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	A	A	B/-	A/B	B	B	B	B	B	B	B	B	B	A	A	A	A	A	B/-	A	B/-	B	B	B/-
+64	f1	f1	S2	F3		A	A/B	A/B	B/-	A/B	B	A	A	A/B	A/B	A/B	A/B	A	B/-	A/B	A	A	A	A	A	A	A	A	A	A	A	B	B	A	A	A	B/-	A	B/-	A/B	B/-	B	B	B/-
+65	f1	f1	S2	F3		A/B	A	A	B/-	B	B	B	B	A	A	A	A	A/B	-	B	B	A/B	B/-	B	B	A	A	A	A	B	B	A/B	A	A/B	A/B	B	B/-	A/B	B/-	B	A	A/B	A/B	A
+66	f1	f1	S2	F3		A/B	A	A	A	A/B	A/B	A/B	-	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A/B	B	B	B	B	A	A	A	A	A	B/-	A	B/-	A/B	A	A
+67	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	-	A/B	A/B	B	A	A	A	A/B	A/B	B/-	B	A/B	A	A	A	A	B	B	B	A	B	A/B	A/B	B/-	A/B	A	A	-	A	A	A
+68	f1	f1	S2	F3		-	A/B	A/B	B/-	B	A/B	A	A	-	A	B	B	A	A	A	A	A	B/-	A/B	A/B	B	B	B	B	A/B	B	B	B	B	B	B	B/-	B	A	A/B	B/-	A/B	B	B/-
+69	f1	f1	S2	F3		A/B	B	A	A	B	A/B	A/B	B	-	B	A/B	A	B	B/-	B	B	B	B/-	B	B	A/B	A/B	A/B	B	B	B	B	A	A/B	A	A	B/-	A/B	A	B	B/-	A/B	A/B	B/-
+70	f1	f1	S2	F3		B	A/B	A/B	B/-	B	B	A	A	B	B	B	B	A	A	-	A	A	B/-	A/B	A/B	B	B	B	B	B	B	B	A/B	B	B	B	B/-	B	A	A/B	A	A	A	B/-
+71	f1	f1	S2	F3		A	A	A	A	A/B	B	B	B	B	B	B	B	B	B/-	B	B	A/B	B/-	B	B	B	B	B	B	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	A/B	A/B	B/-
+72	f1	f1	S2	F3		A	A/B	A/B	B/-	B	B	B	B	B	A/B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	B	B	B	B	B	B	B	B	B	B	A	A	A	A	A	A	A/B	B/-	B	A/B	B/-
+73	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	B	A/B	A/B	B	B	A	A	A	A	A	A	A	A	B	B	B	B	B	B	B	B	B	B	A/B	B/-	A/B	A	A	B/-	A/B	B	B/-
+74	f1	f1	S2	F3		A	A	A	A	A	A	A	A	B	B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	B	B	B	B	A/B	A/B	A	A	A	A	B	B	B	B/-	B	A	B	A	A	A	A
+75	f1	f1	S2	F3		B	B	B	A	A	A/B	A/B	A/B	B	B	B	B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	B	B	B	B	B	A/B	A	A	A	A	A	A/B	B/-	B	A	A
+76	f1	f1	S2	F3		A	A	A/B	B/-	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A/B	B	B	A/B	A	A/B	A/B	B/-	A/B	B/-	A/B	A	A	A	A
+77	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A	A	A	B/-	B	B	B	B	B	B	A	A/B	B	B	B	A/B	A/B	B/-	A/B	B/-	A	A	A	A	A
+78	f1	f1	S2	F3		A	A	A	A	A	A	A	A/B	B	B	B	B	A/B	B/-	A/B	A	A	B/-	A/B	A/B	B	B	A/B	A	A	A	A	A/B	A/B	B	B	B/-	B	B/-	B	A	A	A	A
+79	f1	f1	S2	F3		A	A	A	A	A/B	A/B	B	B	A	A	A/B	A/B	A	A	A	A	A	B/-	B	B	A/B	A/B	B	B	B	B	B	A/B	B	B	A/B	B/-	B	B/-	A	-	B	A/B	B/-
+80	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	A/B	A	A	A	A/B	B	B/-	B	B	B	B/-	B	B	A	A	A	A	A/B	A/B	A/B	A	B	A/B	-	B/-	B	A	A	B/-	B	B	B/-
+81	f1	f1	S2	F3		B	B	B	A	A/B	A/B	A	-	B	B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	B	B	B	A/B	A/B	A/B	A	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	A	A/B	A/B	A
+82	f1	f1	S2	F3		A	A	A	B/-	A	A/B	A/B	A	A	A	A	A	A/B	B/-	A/B	A	B	B/-	B	A/B	A	A	A	A	B	B	B	A	B	A	A/B	B/-	A/B	B/-	B	B/-	A/B	A/B	B/-
+83	f1	f1	S2	F3		A	A	A	B/-	A	A	A	A	A	A	A	A	A/B	B/-	A/B	A/B	B	B/-	B	B	B	B	B	B	B	B	B	B	B	A/B	A	B/-	B	B/-	B	A	B	A	A
+84	f1	f1	S2	F3		-	A/B	A/B	B/-	B	B	A	A	B	B	B	B	A	A	A	A	B	B/-	B	B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	B/-	A	A	A
+85	f1	f1	S2	F3		A	B	A/B	B/-	A	A/B	A/B	B	A/B	A/B	A/B	B	A	A	A	A/B	A	A	A	A	B	B	B	B	B	B	A/B	A	A/B	A	A	A	A	A	A	B/-	B	A/B	B/-
+86	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	A	A	A	A	A	A	A/B	A	A	A	B/-
+87	f1	f1	S2	F3		A	A	A	A	A	A	A	A	B	A/B	A/B	A	B	B/-	B	B	A/B	B/-	B	B	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A/B	A	A	A	A	B/-	A	A	-
+88	f1	f1	S2	F3		A/B	A/B	B	B/-	A	A	A/B	A	A/B	A/B	-	A/B	A/B	A	A	A	A	A	A/B	A/B	A/B	A/B	B	B	-	A	A/B	A/B	A	A/B	A/B	A	A	A	A	A	A	A	-
+89	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A/B	A	B	B	B	B	B	B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A	A/B	A	A	A	A
+90	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A/B	B	A	A	B	B/-	B	B	A	A	A	A	A	A	A	B	A/B	A/B	A/B	A	B	A	A	A	A	A	A	B/-	A/B	B	B/-
+91	f1	f1	S2	F3		-	-	A	A	A/B	A/B	-	-	A/B	A/B	-	A	-	B/-	B	-	B	A	-	-	-	-	-	-	-	B	B	A	-	A	-	B/-	A/B	B/-	A/B	A	-	-	-
+92	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A/B	A	A	A/B	A/B	A	A	A	A	A	A	A	A	A/B	A/B	B	B	B	B	A	A	A	A	A	A	A	A	A	B/-	B	B	B/-
+93	f1	f1	S2	F3		A	A	A	B/-	A	A/B	B	-	A	A/B	A/B	A	B	B/-	B	B	B	A	A	A	B	B	B	B	A	A	A	A	A	B	B	B/-	B	B/-	B	-	A	A	A
+94	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A/B	-	B	B	B	B	B/-	A	A	B	A	A/B	A/B	B	B	B	B	A	A	A	A/B	A	A	A	B/-	B	B/-	A/B	A	A/B	B	B/-
+95	f1	f1	S2	F3		A	A	A	A	A	A	A	A	A	A	A	A	A/B	B/-	A/B	A/B	A/B	A	A/B	A/B	B	B	B	B	A/B	B	B	B	A	A/B	A	B/-	B	B/-	A	A	A	A	A
+96	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	B	A	B	B	B	B	B	B	A	A	A	A	B	A/B	A	B/-	B	B/-	B	A	A	A	A
+97	f1	f1	S2	F3		A	B	B	B/-	B	B	B	A/B	A/B	A/B	B	B	A	A	A	A	B	A	B	B	B	B	B	A/B	A	A	A/B	A	B	A/B	A/B	B/-	A/B	B/-	A/B	A	A	A	A
+98	f1	f1	S2	F3		A	A	B	B/-	A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A	B/-	B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B/-	B	B/-	B	B	B/-
+99	f1	f1	S2	F3		A/B	A/B	A	B/-	A/B	B	B	B	A	A	A	A	B	B/-	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A/B	A	A	A/B	A	A	A	A	B/-	A/B	A/B	B/-
+100	f1	f1	S2	F3		A	A/B	B	B/-	B	A/B	A/B	A	B	B	B	B	A	A	A	A	A	B/-	B	A/B	B	B	B	A/B	A/B	A/B	A/B	A/B	A	A/B	A	A	A	A	A	B/-	B	B	B/-
+101	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	B	B	B	B	B	A/B	B/-	A	A	A/B	A	A	A/B	A	A	A	A	A/B	-	A/B	-	B	B	A/B	B/-	B	B/-	A	B/-	A/B	A/B	A
+102	f1	f1	S2	F3		B	B	A	B/-	A	A	A	B	A/B	A/B	A/B	A/B	B	B/-	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-	A/B	B/-	A/B	A	A	B	A
+103	f1	f1	S2	F3		B	A/B	B	B/-	A	A	A/B	B	A	A	A	A	B	B/-	B	A/B	B	B/-	B	B	A/B	A/B	A/B	B	A	-	A	-	A	B	A/B	A	A	A	A	A	A	A	A
+104	f1	f1	S2	F3		A	A/B	A/B	B/-	A	A/B	B	B	A	A/B	A	A	A	A	A	A	A/B	B/-	B	B	B	B	B	B	B	B	B	B	B	A	A	A	A	A	A	B/-	A/B	A/B	B/-
+105	f1	f1	S2	F3		A/B	A/B	B	B/-	A/B	A/B	B	A/B	A/B	B	B	B	A	A	A/B	A/B	B	B/-	B	B	B	B	B	A/B	A/B	B	B	B	B	-	B	B/-	B	B/-	B	A	A	A	A
+106	f1	f1	S2	F3		B	B	A/B	B/-	A	B	B	B	B	B	B	B	B	B/-	B	A	A/B	A	A	A	A	A	A/B	A/B	A/B	A/B	A/B	B	B	-	-	B/-	A/B	B/-	B	A	A	A	B/-
+107	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	B	A	A	A	A	B	B/-	B	B	B	A	B	B	A/B	A/B	A	A	A	A	A	A	B	-	A/B	B/-	A	B/-	B	A	B	B	B/-
+108	f1	f1	S2	F3		A	A	A	B/-	A/B	A	A	A	A	A	A	A	A/B	B/-	A	B	B	A	A	A	A	A	A	A	A/B	B	B	B	B	-	A	B/-	A	A	A/B	B/-	B	B	B/-
+109	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	A	A	A	A	B	-	B	B/-	A/B	B/-	B	B/-	B	B	A
+110	f1	f1	S2	F3		A	A	A	A	B	B	B	A	A/B	A	A	A	B	B/-	A	A	A	A	A	A	B	B	A/B	B	A/B	-	B	-	B	-	A/B	B/-	A	A	A	B/-	B	A/B	B/-
+111	f1	f1	S2	F3		A/B	A	A	B/-	A	A	A	A	B	A/B	A/B	A	B	B/-	B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	-	A	B/-	A/B	A	A	A	A	A	A
+112	f1	f1	S2	F3		A/B	A	A	B/-	B	A/B	A/B	B	B	A/B	A/B	A/B	B	B/-	B	B	B	B/-	B	B	B	B	B	A/B	A	A	A	B	A/B	A	B	B/-	B	B/-	B	A	A	A	A
+113	f1	f1	S2	F3		A	A/B	A/B	B/-	A	A	A/B	A/B	A	A	A	A	B	B/-	A	A/B	A	B/-	A/B	A/B	A/B	A/B	A/B	B	A/B	A/B	A/B	A	A/B	A	A/B	B/-	B	B/-	A/B	A	A/B	A/B	B/-
+114	f1	f1	S2	F3		A	A	A	A	A	A/B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A
+115	f1	f1	S2	F3		A	A/B	A	A	A	A	A/B	A	A	A	A	A/B	A/B	B/-	B	-	A/B	B/-	A/B	A/B	B	A/B	B	B	B	B	B	B	A	A	A/B	A	A	A	A	-	A	A	B/-
+116	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	A/B	A/B	A	A/B	B	A	A	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A	A	A	A	B/-	A/B	A/B	B/-
+117	f1	f1	S2	F3		A	A	A	A	A	A/B	A/B	A	A/B	A	A	A	A	A	A/B	A	A/B	A	A	A	A/B	A/B	A/B	A/B	A/B	B	A/B	A/B	A/B	A/B	B	B/-	B	B/-	A/B	A	A	A	A
+118	f1	f1	S2	F3		A/B	A	A	A	A	A/B	A/B	B	B	A	B	B	B	B/-	B	A	-	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B	B	B/-	B	B/-	B	A	A	A	A
+119	f1	f1	S2	F3		B	B	A/B	A	A/B	A	A	A	A/B	B	B	B	B	B/-	A/B	A/B	A/B	B/-	B	B	B	B	B	B	A	A	A	B	A/B	A	A	B/-	A	A	A	B/-	A/B	A/B	B/-
+120	f1	f1	S2	F3		A	A	A	B/-	A/B	A/B	B	B	B	A	A	A	A	A	A	A	A/B	B/-	A/B	A/B	A/B	A/B	A/B	B	A/B	A/B	A	A	B	B	B	B/-	B	B/-	B	A	A	A	A
+121	f1	f1	S2	F3		A	A/B	A/B	B/-	A/B	A/B	A/B	A/B	A	A/B	A/B	A/B	A/B	B/-	A	A	A/B	B/-	A	A	A/B	A/B	A/B	A/B	A/B	B	B	B	A	A	A	B/-	B	B/-	B	B/-	B	B	B/-
+122	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A/B	A/B	A/B	A/B	A/B	B/-	B	B	B	B/-	-	A/B	A	A	B	B	A/B	A/B	A/B	A/B	B	B	A/B	B/-	A/B	B/-	A/B	A	A	A/B	B/-
+123	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	B	B	B	A	A	A/B	A/B	A/B	B/-	A/B	A/B	B	B/-	-	A/B	B	B	B	B	A/B	B	B	B	B	A/B	B	B/-	B	B/-	A/B	B/-	B	A/B	A
+124	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	B	B	A/B	A/B	A/B	A/B	B/-	A/B	A/B	A/B	A	A/B	A/B	B	B	B	B	A/B	A/B	A/B	A	B	A/B	B	B/-	B	B/-	B	A	A	A	A
+125	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	A/B	A/B	B	A	A	A	A	B	B/-	B	B	B	A	B	B	B	B	B	B	B	B	B	B	A	B	A/B	B/-	A/B	B/-	A/B	B/-	B	A/B	A
+126	f1	f1	S2	F3		A/B	A/B	A/B	A	A	A	A	B	A	A	A	A	B	B/-	B	B	A/B	B/-	B	B	B	B	B	B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A
+127	f1	f1	S2	F3		-	-	A/B	B/-	A/B	A/B	-	-	B	B	-	A/B	-	B/-	A	-	A	B/-	-	-	-	-	-	-	-	A/B	A/B	A/B	-	A/B	-	B/-	A/B	B/-	A/B	B/-	-	-	-
+128	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	B	B	B	A	B	B/-	B	B	A/B	B/-	-	B	B	B	B	A	B	A/B	A/B	A	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+129	f1	f1	S2	F3		B	B	B	B/-	A	B	B	B	A	A	A	A	A/B	B/-	A/B	A/B	A/B	B/-	-	A/B	B	B	A/B	A/B	B	B	B	B	A	A	A	A	A	A	A	B/-	B	B	B/-
+130	f1	f1	S2	F3		B	A	A	B/-	A	A/B	A/B	B	A	A	A	A/B	A/B	B/-	A/B	A/B	B	B/-	-	B	A	A	A	A	A	A	A	A	A	A	A	B/-	A/B	B/-	A/B	B/-	B	A/B	B/-
+131	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	B	A/B	A	A	A	B	B/-	B	B	A/B	B/-	A/B	A/B	A	A	A	A	B	A/B	A/B	A/B	A	A	A/B	B/-	B	B/-	B	A	A	A/B	B/-
+132	f1	f1	S2	F3		A	A/B	B	B/-	B	B	B	B	B	A	A	A	B	B/-	B	B	A/B	B/-	B	B	B	B	B	A/B	A/B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+133	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	A/B	B	B	B	B	A	A	A	A	A	B/-	A/B	A/B	A	A	A	A	A	A	A	A	B	B	B	B/-	A/B	A	B	-	A/B	B	B/-
+134	f1	f1	S2	F3		B	A	A	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A	A	A/B	B/-	A/B	A/B	A	A	A	A	A/B	A/B	A/B	A/B	A	A	B	B	A	A	A/B	A	A	B/-	B	B/-	B	B	B/-
+135	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	B	B	B	B	A/B	B/-	A/B	B	B	B/-	B	B	B	B	A/B	A	A/B	A	A	A/B	A	A	A	A	A	A	A	-	A	A	B/-
+136	f1	f1	S2	F3		B	B	B	B/-	B	A	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B	A/B	A/B	A/B	A/B	B	A/B	B/-	B	B/-	A/B	-	A/B	A/B	B/-
+137	f1	f1	S2	F3		A	A/B	A/B	B/-	A/B	B	B	B	A	A	A	A	B	B/-	B	A/B	B	B/-	B	B	-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	-	A	A	A
+138	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	B	B	B	B	B	A	A	A	A	A	B/-	A/B	A/B	A	A	A	B	A	A	A	A	B	B	B	B/-	A/B	B/-	B	A	A	A	B/-
+139	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	B	A	A	B	B	A/B	B/-	A/B	B	A/B	A	A	A	A	A	A	A	B	B	B	B	B	A	A	A	A	A	A	B/-	A/B	A/B	B/-
+140	f1	f1	S2	F3		A	A	A	B/-	A	A	A	A	B	B	B	B	B	B/-	B	B	B	B/-	B	B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	B/-	A/B	B/-	A/B	A	A	A	A
+141	f1	f1	S2	F3		B	A	A/B	B/-	B	B	B	B	B	A/B	A/B	A/B	A/B	B/-	A/B	A/B	B	B/-	B	B	B	B	B	A/B	B	B	B	A/B	A/B	A/B	A/B	B/-	A/B	A	A	A	A/B	A/B	A
+142	f1	f1	S2	F3		B	A/B	B	B/-	B	B	B	A	A	A	B	A/B	A	A	A	A	A	A	A	A	-	A/B	B	B	A	A	A	A	A	A	A	B/-	A/B	B/-	A	B/-	B	B	B/-
+143	f1	f1	S2	F3		A/B	A/B	A	A	A	A	A	A	B	B	B	B	A/B	B/-	-	A/B	A/B	B/-	B	B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B	B	B/-	B	B/-	B	-	A/B	A/B	A
+144	f1	f1	S2	F3		A	A	A	B/-	A	A	A	A	B	A/B	A/B	A	A/B	B/-	-	A/B	A/B	B/-	A/B	A/B	A/B	A/B	A/B	A	B	B	B	A	A	A/B	B	B/-	B	-	A/B	B/-	A/B	A/B	B/-
+145	f1	f1	S2	F3		A/B	A	A	A	B	B	B	B	A/B	B	A/B	A/B	A	A	A	A/B	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A	A	A	A/B	A	A	B/-	A/B	A/B	B/-
+146	f1	f1	S2	F3		B	B	B	B/-	A	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A	B/-	A/B	A/B	A	A	A/B	A/B	A	A	A	A	B	B	B	A	A/B	A	A/B	B/-	B	B	B/-
+147	f1	f1	S2	F3		B	A/B	B	B/-	B	B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	B	B	A/B	A/B	A/B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+148	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	A/B	A	A	B	B	B	B/-	B	B	B	B/-	B	B	B	B	B	B	A	A/B	A/B	B	A	A	A	A	-	A	A	B/-	B	B	A
+149	f1	f1	S2	F3		B	B	B	A	B	B	B	B	A	A	A/B	B	-	B/-	A/B	B	A/B	B/-	A/B	A/B	A	A	A/B	A	A	A	A	A	A/B	A/B	B	A	A	A	B	B/-	B	A	A
+150	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A	A/B	A/B	-	B	B	B	B	B	B/-	B	B	A/B	A	A	A	A/B	A/B	B	-	B	B	B	A/B	B	B	B	B/-	B	B/-	B	B/-	A/B	A/B	B/-
+151	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	A	A	A/B	B	B	A	A	A	A	A	B/-	A/B	A/B	B	B	B	B	B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	A	A/B	B	B/-
+152	f1	f1	S2	F3		B	A/B	A/B	B/-	A	A	A/B	A/B	A/B	A/B	A/B	B	B	B/-	B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	B/-	B	B/-	B	B	B/-
+153	f1	f1	S2	F3		A	A	A	A	A/B	A/B	B	B	A/B	A	A	A	B	B/-	B	B	B	B/-	B	B	A	A	A	A	A/B	A/B	A/B	A	A/B	A/B	A/B	B/-	A/B	B/-	B	A	A	A	A
+154	f1	f1	S2	F3		A	A/B	A/B	B/-	A	B	B	B	A	A	A	A	B	B/-	A/B	B	B	B/-	B	B	-	B	B	B	A	A	A	A	A/B	A	A	A	A	B/-	A/B	B/-	A	A	A
+155	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B	A	A	A/B	A	B	B	B	B/-	A/B	B/-	A/B	B/-	B	A/B	B/-
+156	f1	f1	S2	F3		A	A	A	-	B	B	B	B	A	A	A	A	B	B/-	B	B	A/B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A/B	A	A	B/-	A/B	B/-	B	A	A	A	A
+157	f1	f1	S2	F3		A/B	B	B	B/-	B	A	A	A	A	A	A	A	A/B	B/-	A/B	A/B	-	B/-	A/B	A/B	A	A	A/B	A/B	B	B	B	A	A/B	A/B	A/B	B/-	A/B	-	B	A	A	A	B/-
+158	f1	f1	S2	F3		-	A	A	A	B	B	B	B	A/B	A/B	B	A/B	A	A	A	A	A/B	B/-	B	B	A	A	A/B	A	A	A	A/B	B	A	A	A	B/-	A	A	B	B/-	B	B	B/-
+159	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	A/B	A	A	A	A/B	A	A	-	A	B/-	A/B	A	A	-	A/B	A/B	A	A	A	A	A/B	B	B	B/-	A/B	B/-	A/B	B/-	B	A/B	B/-
+160	f1	f1	S2	F3		A	A	B	B/-	A	A	A	B	B	A/B	A/B	A/B	-	A	A	A/B	A	A	A/B	A	A	-	B	A/B	A/B	B	A/B	A	B	B	B	B/-	A/B	B/-	A/B	B/-	A	A	B/-
+161	f1	f1	S2	F3		B	B	A/B	B/-	A	A	A	A/B	A	A	A	A	A	A	A/B	A/B	A/B	B/-	B	B	A	A	B	B	B	A/B	A/B	A/B	B	B	B	A	A	A	A	B/-	B	B	A
+162	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	B	B	B	A	A	A	-	A	B/-	B	B	B	B	B	A/B	A/B	A/B	A	A/B	B	B	B	B/-	B	B/-	B	B/-	B	A	A
+163	f1	f1	S2	F3		A	A	A	A	A/B	A	A	A	A	A	A	A	A/B	A	A	A/B	A/B	B/-	A/B	A/B	A/B	-	A/B	A/B	B	B	B	B	A	A/B	A/B	B/-	A/B	B/-	A/B	B/-	A/B	A/B	B/-
+164	f1	f1	S2	F3		A	A	A	A	A	A	A	-	A/B	A	A	A	A/B	A	A/B	A/B	A	A	A	A	A/B	-	A/B	-	B	B	B	A	A	A	A/B	B/-	B	B/-	B	B/-	A/B	B	B/-
+165	f1	f1	S2	F3		B	A/B	A/B	B/-	A/B	A/B	A/B	-	B	B	B	B	A/B	B/-	B	A/B	B	B/-	A/B	B	B	-	B	B	B	B	B	B	B	B	B	B/-	B	B/-	B	A	A/B	A/B	B/-
+166	f1	f1	S2	F3		B	B	B	B/-	B	B	-	B	A	B	A	A	A/B	B/-	A/B	A/B	B	B/-	A/B	A/B	B	B	B	B	A/B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+167	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	A/B	A	A/B	A/B	A/B	A/B	B/-	B	A/B	B	B/-	A/B	A/B	A/B	-	A/B	A/B	A	A	A	A	B	A	A	B/-	B	B/-	B	B/-	B	B	A
+168	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	B	A/B	B	B	B	B/-	B	A/B	A/B	B/-	A/B	A/B	A	A	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	B/-	A/B	B/-	A/B	A	B/-
+169	f1	f1	S2	F3		A	A/B	A/B	B/-	A/B	A/B	A	A	B	B	A	A	B	B/-	A	A/B	A	A	A	A	A/B	A/B	A/B	A/B	A	A/B	A/B	A/B	A	B	A	A	A	A	A	B/-	B	B	B/-
+170	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	B	A/B	A/B	A	A	A/B	B/-	A/B	A/B	B	B/-	A/B	B	A/B	-	A/B	A/B	A/B	A/B	A/B	A/B	B	B	A/B	A	A	A	A	A	A	A	A
+171	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A/B	A	B	A/B	A/B	B/-	A/B	A/B	A	B/-	A/B	B	B	B	B	B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A	B	B/-	B	B	A
+172	f1	f1	S2	F3		A/B	B	B	B/-	B	A/B	A/B	-	A	A/B	A/B	A	B	B/-	B	B	B	B/-	B	B	B	B	B	B	B	B	B	A	A/B	A	A	A	A	A	B	A	A	B	B/-
+173	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	A/B	B	B/-	B	B	A/B	A/B	A/B	B	A/B	B	B	A/B	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+174	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A/B	B	B/-	A/B	B	A	A	A/B	A/B	A/B	A/B	A/B	B	A	A/B	A	A	A	A	A	B/-	B	B	B/-
+175	f1	f1	S2	F3		B	B	A/B	B/-	A/B	A/B	B	A/B	B	A/B	A/B	B	A/B	B/-	A/B	A/B	A	A	A/B	A	A	-	B	B	A/B	A/B	A/B	A/B	A	A	A	B/-	B	B/-	A	B/-	A/B	A/B	B/-
+176	f1	f1	S2	F3		-	-	A/B	B/-	A/B	B	B	B	A/B	A/B	A/B	A/B	B	B/-	B	A/B	A/B	B/-	A/B	A/B	A	A/B	A/B	A/B	A/B	A	A/B	A/B	B	B	B	B/-	A/B	B/-	A/B	B/-	A/B	A/B	B/-
+177	f1	f1	S2	F3		B	B	A/B	A	A	A	A	A	A/B	A/B	B	B	B	B/-	A/B	A/B	B	A	A	A	A/B	A/B	A/B	B	B	B	B	B	B	A/B	A/B	B/-	A/B	A	A/B	A	A	A/B	B/-
+178	f1	f1	S2	F3		A	B	B	B/-	B	B	B	B	A	A	A	A	-	A	A	-	A/B	B/-	A/B	B	A	A	A/B	-	B	B	A/B	A	A	A	A	A	A	A	A	B/-	B	B	B/-
+179	f1	f1	S2	F3		B	B	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	A/B	A/B	A	A	A/B	A	A	A	A/B	A/B	A/B	A/B	B	B	A	A	A	A	A	A	A/B	B/-	B	B	B/-
+180	f1	f1	S2	F3		B	B	A/B	B/-	A	A	A	A	B	A/B	B	A/B	A/B	B/-	A/B	A	A/B	A	A/B	A/B	B	B	B	B	A/B	A/B	A/B	A	B	A	A/B	A	A	A	A	B/-	A/B	A/B	B/-
+181	f1	f1	S2	F3		B	A	A/B	B/-	A	A/B	A/B	B	B	A	A	A	A/B	B/-	B	A	A/B	B/-	B	B	A/B	A/B	A/B	B	A	A	A	A	A/B	A/B	A/B	B/-	B	A	A	B/-	A/B	A/B	B/-
+182	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	A	A	A	A	A	A	A	B	B/-	B	B	A/B	A/B	-	A/B	A	A	A	A	A/B	A/B	A/B	B/-	A/B	B/-	A/B	A	A	A	A
+183	f1	f1	S2	F3		A	B	B	B/-	A	A	A/B	A/B	A	A	A	A	A/B	B/-	B	B	B	B/-	B	B	A	A	A	A	A/B	A	A	A	A/B	A	B	B/-	A/B	B/-	B	B/-	A	A	A
+184	f1	f1	S2	F3		A/B	A/B	A/B	A	A	A	A	A	A/B	A/B	B	B	B	B/-	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B/-	B	B/-	A/B	A	A	A	A
+185	f1	f1	S2	F3		A/B	A	A	B/-	B	B	B	B	A/B	A/B	A/B	A/B	B	B/-	B	A/B	A	B/-	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-	A/B	A/B	B/-
+186	f1	f1	S2	F3		B	B	B	B/-	A/B	B	B	B	A/B	A/B	A/B	A/B	A/B	B/-	B	A/B	B	B/-	A/B	B	A/B	A/B	A/B	A	A/B	B	A/B	A	A	B	B	B/-	B	B/-	B	B/-	B	B	A
+187	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B	A	A	A	A	A	A	B/-	B	B	B/-
+188	f1	f1	S2	F3		A/B	A	A	B/-	A/B	A/B	A/B	B	B	B	B	B	A/B	B/-	A/B	A/B	A/B	A	A	B	B	B	B	B	B	B	B	B	A/B	A	A	A	A	A	A	B/-	A	A	A
+189	f1	f1	S2	F3		B	B	A	A	A/B	A/B	A/B	A/B	B	B	B	B	A/B	A	A	A	B	A	A	B	A/B	A/B	A/B	A/B	A/B	B	B	B	A/B	B	B	A	A	A	A	B/-	B	B	B/-
+190	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A	B	B	B	A/B	A	A	A	A	A	B/-	B	B	A/B	A/B	A/B	A/B	B	B	B	B	B	A/B	A/B	B/-	B	B/-	B	B/-	A/B	B	B/-
+191	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A	A	A	A	A	A	B	B	A	A	A	B	B	B/-	B	B	B	B	A	A	A	A	A	A	A/B	A/B	A	A	A	A	A	A	A	A	A
+192	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	B	A/B	A/B	A	A	A/B	A/B	A/B	B/-	A/B	B/-	A	B/-	B	B	B/-
+193	f1	f1	S2	F3		A/B	A	A	A	A/B	A/B	A/B	B	A	A	A	A	A/B	A	A	A	A	A	A	A	A	A	A/B	-	B	A/B	A/B	A	A	A/B	A	A	A	A	A	B/-	A/B	B	B/-
+194	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	B	B	B	B	A	A	A	A	A	B/-	A/B	B	B	B	B	B	B	A	A	A	A/B	A/B	A/B	B/-	B	B/-	B	B/-	B	B	B/-
+195	f1	f1	S2	F3		B	B	B	A	A/B	B	B	B	A	A	A	A	A/B	B/-	B	B	B	B/-	A/B	B	B	B	B	A/B	A/B	A/B	B	B	A	A	A	A	A	A	A	A	A	A	A
+196	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	B	B	B	B	A/B	A/B	A	B	B	B	B/-	A/B	A/B	A/B	A/B	B	A/B	A/B	A/B	A/B	B	B	B	A	A	A/B	A	A	A	A	A	A
+197	f1	f1	S2	F3		A	A	A/B	A	A	B	A/B	A	B	B	B	B	A	B/-	A/B	A/B	A/B	B/-	A/B	B	A	A	A	A	B	B	B	A/B	B	A	A	A	A	A	A	A	A	A	A
+198	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A	A	B	B	B	A/B	A/B	A/B	A	A	B	A	A	A	A	A/B	-	-	A/B	A	A	A	B	A/B	B	B	B/-	B	B/-	B	A	A	A	A
+199	f1	f1	S2	F3		B	A/B	A/B	B/-	B	A	A	A	-	A/B	A/B	A/B	A/B	A	B	B	A/B	A	A/B	A	A	-	A/B	A/B	B	B	B	B	A/B	B	B	B/-	B	B/-	B	B/-	B	A/B	B/-
+200	f1	f1	S2	F3		A/B	B	B	B/-	A/B	A/B	A/B	B	-	A	A	A	A/B	B/-	A/B	A	A/B	B/-	B	B	B	B	B	B	A	A	A	A	A/B	B	B	B/-	B	B/-	B	A	A	A	A
+201	f1	f1	S2	F3		A	B	A/B	B/-	B	B	B	B	B	A/B	B	B	A/B	B/-	A	A/B	A/B	B/-	A	A	A	A	A	A	A/B	A/B	A/B	A/B	B	A/B	B	B/-	A/B	B/-	B	A	A/B	A/B	B/-
+202	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	B	A/B	A/B	A	A	A/B	-	A	A	B	A	A	A	A	A	A	A/B	A	B	A	A	B	B	B	B/-	A/B	B/-	A/B	A	A	A	B/-
+203	f1	f1	S2	F3		B	A/B	A/B	B/-	A	A	A	A	A/B	A/B	A/B	A	B	B/-	B	B	A/B	A	A	A	A	A	A/B	B	A/B	A/B	A	A	A	A	A	A	A	A	A	-	A/B	B	B/-
+204	f1	f1	S2	F3		B	B	B	B/-	B	B	A/B	A/B	A	A	A	B	A	A	A/B	A/B	B	B/-	A/B	A/B	B	B	B	B	A	B	A	A	A/B	A	A	B/-	B	B/-	B	B/-	B	B	B/-
+205	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A	A/B	A/B	B	A	A/B	A/B	B	B	B/-	B	B	B	B/-	A/B	B	A/B	A/B	B	B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B	B/-
+206	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A/B	A/B	A/B	A/B	B	B/-	B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	B	B	B	A/B	B	B	B	B/-	B	B/-	A	B/-	A/B	A/B	A
+207	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A	A/B	A/B	A/B	B/-	-	A/B	B	B/-	A/B	A/B	B	B	A	-	A	B	A	-	A	A	A	A	A	A	A	-	A	A	A
+208	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	B	B	B	B	A/B	B/-	A/B	A/B	B	B/-	B	B	B	B	B	B	B	B	B	B	A/B	B	B	B/-	B	B/-	B	B/-	B	B	A
+209	f1	f1	S2	F3		B	B	B	A	B	A/B	B	B	-	A	A	A	A/B	B/-	-	B	-	A	A/B	A	B	B	B	B	B	B	B	-	B	B	B	B/-	-	B/-	B	-	A/B	A/B	B/-
+210	f1	f1	S2	F3		B	A/B	A/B	A	B	B	B	B	B	B	B	B	A/B	B/-	A/B	A/B	A/B	A	A	A	A	A	B	B	A	A	A/B	A	A	A	A	A	A	A	A	A	A	B	B/-
+211	f1	f1	S2	F3		B	B	B	B/-	A/B	A	A	A	A/B	B	B	B	A/B	A	A	B	B	B/-	A/B	B	A	A	A	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	A	A	B/-	B	A/B	B/-
+212	f1	f1	S2	F3		B	B	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	A	A	A	A	A	A	B	B	B	A/B	A/B	A/B	A/B	A/B	A/B	A	A/B	B/-	B	B/-	B	B/-	A/B	A/B	A
+213	f1	f1	S2	F3		B	B	B	B/-	B	A/B	A/B	A	A/B	B	B	A/B	A/B	B/-	A/B	A/B	A/B	A	A	A	A/B	A/B	-	A/B	A	A	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B	B/-
+214	f1	f1	S2	F3		A	A	A	A	B	B	B	B	A	A	A	A	A/B	A	A	A	A/B	B/-	A/B	B	A	A	B	A/B	A	A/B	A/B	A/B	A	A	A	B/-	B	B/-	A	A	A	A	B/-
+215	f1	f1	S2	F3		B	A/B	A/B	B/-	A/B	B	B	A/B	A/B	A/B	A/B	A/B	A/B	A	A	A	B	B/-	A/B	B	B	B	A/B	A/B	A	A	A	A	B	B	B	B/-	B	A	A	B/-	B	B	B/-
+216	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	A/B	B	B	A	A	A	A	A/B	A	A	-	B	B/-	A	A/B	A	-	B	A/B	B	A	A	B	B	B	B	A	A	A	A	B/-	A/B	A/B	B/-
+217	f1	f1	S2	F3		A	B	B	B/-	B	B	B	B	A	A	A	A	A/B	B/-	A	A	A	A	A	A	A	-	B	A/B	B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+218	f1	f1	S2	F3		B	B	B	B/-	A	A/B	A/B	A	A/B	B	B	B	A/B	B/-	B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	B	A/B	A	A/B	A/B	A/B	B	B	A/B	B/-	A/B	B/-	A/B	B/-	B	B	B/-
+219	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A/B	A	B	B	A	A	A	A	A/B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	B	B	B	B	A	A	A	A	A	A	A	-	B	B	A
+220	f1	f1	S2	F3		B	B	B	A	B	B	B	A/B	B	A	A/B	A/B	A/B	A	A	A	A	B/-	A/B	A/B	B	B	B	B	B	B	B	A	B	B	A/B	B/-	B	B/-	B	B/-	A/B	B	B/-
+221	f1	f1	S2	F3		B	B	B	B/-	A	B	B	B	B	B	B	B	A/B	B/-	A/B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	B	B	A/B	A	A	A	A	A	A	A	A	A	A	B/-	B	A/B	B/-
+222	f1	f1	S2	F3		A	A	B	B/-	B	B	B	A/B	A	A	A	A	A/B	B/-	B	B	B	B/-	B	B	B	B	B	B	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	B	A/B	A
+223	f1	f1	S2	F3		B	A	A/B	B/-	B	A/B	A/B	A/B	A	A	A	A	A	A	A	A/B	B	B/-	B	B	A/B	A/B	A/B	A/B	B	B	B	B	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-
+224	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	B	B	B	B	B	A	A	A	A	A/B	B/-	B	B	B	B	B	B	A/B	A/B	A	A	B	B	B	B/-	B	B/-	B	A	A	A	A
+225	f1	f1	S2	F3		B	B	B	B/-	A	A/B	B	B	A/B	A/B	A	A	A/B	B/-	A/B	A/B	A/B	B/-	A/B	B	B	B	A/B	A/B	A/B	A/B	A/B	A	A	B	B	B/-	B	B/-	A	A	A	A	A
+226	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A	A	A/B	A/B	B/-	B	B	B	B/-	A/B	A/B	A	A	B	A/B	A	A	A	A	B	A	A	B/-	A/B	A	A	A	A	A	A
+227	f1	f1	S2	F3		A	A	A/B	A	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	-	A/B	A/B	B/-	A/B	A/B	B	B	B	B	A	A	A	A	B	A/B	B	B/-	B	B/-	B	-	A/B	A/B	A
+228	f1	f1	S2	F3		A	A	A	B/-	B	B	B	A/B	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	A	B	A/B	B/-	A/B	B/-	A/B	A	A	A	A
+229	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A/B	A/B	A/B	A/B	A/B	B/-	B	A/B	B	B/-	B	B	A	A	A/B	-	A	A	A	A	A/B	A	A/B	A	A	B/-	A	B/-	A/B	A/B	A
+230	f1	f1	S2	F3		B	B	A/B	B/-	A	A/B	A/B	A/B	A/B	A	A	B	A/B	B/-	-	B	-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-	A/B	B/-	A/B	A	A	A	A
+231	f1	f1	S2	F3		B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	-	B/-	B	B	B	B	B	A/B	A	A	A	A	B	A/B	A/B	B/-	B	B/-	B	A	A	A	A
+232	f1	f1	S2	F3		A/B	A	A	A	A	A	A	A	A/B	A/B	A/B	B	A/B	B/-	B	B	B	A	A	A	A/B	A/B	B	A/B	B	B	B	A	B	B	B	B/-	A/B	-	A	B/-	A	A	B/-
+233	f1	f1	S2	F3		A	A	A	B/-	B	B	B	B	A	A	A	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	A/B	A/B	A/B	A	A	A	A	A	A	A	A
+234	f1	f1	S2	F3		A/B	A	A	A	A	A	A	A	B	B	B	B	A/B	B/-	A	B	B	B/-	A/B	A/B	A	A	A	A	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+235	f1	f1	S2	F3		A	A/B	A/B	B/-	B	B	A/B	B	A	A	A	A	A/B	B/-	-	B	A	B/-	B	B	B	B	B	B	B	B	B	B	A	A	A	B/-	A/B	B/-	A/B	-	A	A	A
+236	f1	f1	S2	F3		-	A	A	A	B	B	B	A	A	A	A	A	A/B	B/-	A/B	A/B	A/B	B/-	B	B	A	A	A/B	A/B	B	B	B	A/B	B	A	A	A	A	B/-	A/B	B/-	B	B	B/-
+237	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	B	B	B	B	A	A	A	A/B	B	B	A/B	A	A	A	A	A	A	A	A
+238	f1	f1	S2	F3		A/B	A	A	A	A/B	B	B	B	A	A	A	A	A/B	B/-	A/B	B	B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	B	B	B	B	B	A/B	B	B/-	B	B/-	B	B/-	B	A	A
+239	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	A/B	A/B	A/B	B/-	B	A/B	A/B	A/B	A/B	A/B	A/B	B	A/B	A	-	A/B	A/B	A	A/B	A	A/B	B/-	A/B	A/B	B/-
+240	f1	f1	S2	F3		A	A/B	A/B	B/-	A	A	A	B	B	A	A	A	A/B	B/-	A/B	A/B	A/B	B/-	B	A/B	A/B	A/B	A/B	A/B	B	B	B	B	B	B	B	A	B	B/-	B	B/-	A/B	B	B/-
+241	f1	f1	S2	F3		B	A/B	A/B	B/-	B	B	A	A	A	A	A	A	B	B/-	B	B	A/B	B/-	A/B	A/B	A/B	A/B	A/B	B	A	A	A/B	A/B	B	B	B	B/-	B	B/-	B	B/-	A	A	A
+242	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	B	A/B	B	B	B	B	B/-	B	B	A	A	A	A	A	A	A	A	B	B	B	B	A	A	A	A	A	-	A	B/-	A/B	A/B	B/-
+243	f1	f1	S2	F3		B	B	B	A	A/B	A	A	A/B	B	B	B	B	B	B/-	B	B	A/B	B/-	B	B	A/B	A/B	A/B	A/B	A/B	B	A/B	A/B	A	B	B	B/-	B	B/-	B	A	A	A	A
+244	f1	f1	S2	F3		B	B	-	B/-	A	A	A	A	A	A	A	A	A	A	A/B	A/B	B	B/-	B	B	B	B	B	A/B	B	B	B	B	A/B	A/B	A/B	B/-	B	B/-	B	A	A	A	A
+245	f1	f1	S2	F3		A	A	A/B	B/-	A/B	A/B	A/B	A/B	A	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	B	A	A	B/-	B	B/-	B	B/-	B	B	B/-
+246	f1	f1	S2	F3		B	A	A	B/-	A	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B	B/-	B	B	B	B/-	B	B	A	A	A	A	B	B	B	A/B	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+247	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	B	B	B	B/-	B	B	B	B	B	B	A	A	A	A	A/B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+248	f1	f1	S2	F3		A/B	A/B	A	A	B	B	B	A/B	A/B	A/B	A	A	A/B	B/-	A/B	A/B	A/B	A	A	A	B	B	B	A	A	B	B	B	A	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+249	f1	f1	S2	F3		A/B	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A	A	A	A/B	B	B/-	B	B	A/B	A/B	A	A	B	B	B	B	B	B	B	B/-	A	B/-	B	B/-	A/B	A/B	B/-
+250	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	A/B	A/B	B	B	B	B	B	B	B/-	-	B	B	B/-	B	B	A	A	A	A	B	B	B	B	A	B	B	A	A	A	A	B/-	B	B	B/-
+251	f1	f1	S2	F3		A/B	A/B	A/B	A	A/B	A/B	A/B	A/B	A	A/B	A/B	A	B	B/-	-	B	B	B/-	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A/B	A/B	A/B	A	A	A	A/B	B/-	B	B	B/-
+252	f1	f1	S2	F3		B	B	B	B/-	A	A/B	A/B	B	A	A	A/B	B	A/B	B/-	A/B	B	A/B	A	A	A	B	B	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A
+253	f1	f1	S2	F3		A	A/B	A/B	A	B	B	B	-	A/B	A	A	A	B	B/-	B	B	A/B	B/-	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A/B	A/B	A/B	B/-	A/B	B/-	A/B	A	B	B	B/-
+254	f1	f1	S2	F3		B	A	A	A	B	B	B	B	A	A	A	A	B	B/-	B	B	B	B/-	B	B	B	B	A/B	A/B	B	B	B	B	B	A	A/B	B/-	A/B	B/-	A/B	B/-	A	A	A
+255	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A/B	A/B	B	A	A	A	A	A/B	B/-	-	B	B	B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-
+256	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	B	A/B	A/B	A	A/B	A/B	A/B	A	A	A	A/B	A	B/-	A/B	A/B	B	B	B	B	B	A/B	A/B	A/B	B	B	B	B/-	B	A	A/B	-	A/B	A/B	B/-
+257	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	A/B	B	B	B	B	A	A	A	A	A	B/-	A/B	A/B	B	B	B	B	A	A	A	A/B	B	A/B	B	B/-	B	B/-	B	A	A/B	A/B	B/-
+258	f1	f1	S2	F3		A/B	A/B	A/B	B/-	B	B	B	A	A	A	A	A	A	A	A	A	A/B	B/-	B	B	B	B	B	B	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+259	f1	f1	S2	F3		A	A/B	B	B/-	B	B	B	A	A	A	A	A	-	B/-	B	B	A	A	-	A	A	A	-	-	B	A/B	A	A	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+260	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	A/B	B	A/B	B/-	A/B	A/B	A	A	A	A	A/B	A/B	A/B	A	B	A	A	A	A	B/-	A/B	B/-	B	B	B/-
+261	f1	f1	S2	F3		B	A	A	B/-	A	A	A/B	A/B	A	A	A	A/B	B	B/-	B	B	B	B/-	A/B	A/B	A	A	A	A	B	B	B	A/B	A	A	A	A	A	A	A	A	B	B	B/-
+262	f1	f1	S2	F3		A	A	A	A	A/B	B	B	B	A/B	A	A	A/B	B	B/-	B	B	A/B	B/-	B	B	B	B	B	B	A/B	A/B	A/B	A/B	A	A	-	A	A	A	A/B	B/-	A/B	A/B	B/-
+263	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A/B	-	A	A	A	A	B	B/-	B	A	-	A	A	A	A/B	A/B	A/B	-	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	B/-	B	B	B/-
+264	f1	f1	S2	F3		A	A	A	A	B	A	A	A	A	A	A/B	A/B	B	B/-	B	B	B	B/-	A/B	A/B	B	B	B	B	A	A	A	A	A	A/B	A	B/-	A/B	B/-	B	A	A	A	A
+265	f1	f1	S2	F3		A	A	A	A	A	A	A	B	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A/B	-	-	A/B	A	B	A	A	A	B/-	B	A	A	B/-	B	B	B/-
+266	f1	f1	S2	F3		A	A	-	A	A/B	B	B	B	A	A	A	A	A	A	A	A	B	B/-	B	B	B	B	B	B	A	A	A/B	A/B	A/B	B	B	B/-	A/B	A	B	A	A/B	A	A
+267	f1	f1	S2	F3		A	A	A	B/-	A	A	A	A	A/B	A/B	A	A	B	B/-	B	A/B	A/B	B/-	A/B	A/B	A/B	A/B	A/B	A/B	A	A	A	A	A/B	A/B	A/B	B/-	A/B	A	A	B/-	A/B	A/B	B/-
+268	f1	f1	S2	F3		B	A/B	-	B/-	A	A	A	B	A/B	A	A	A	B	B/-	B	B	B	B/-	B	B	B	B	B	B	A	A	A	A	A	A/B	A	A	A	A	A	B/-	A/B	A/B	B/-
+269	f1	f1	S2	F3		B	B	B	B/-	B	A	A	A	A/B	A/B	A	A/B	-	B/-	-	A/B	A	A	-	A	A	A	-	-	A/B	A/B	B	A/B	A/B	-	A/B	B/-	-	B/-	A/B	-	A	A	B/-
+270	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	A	A	B	A/B	B/-	A	A	A	B/-	B	A/B	-	A	A	A/B	A	A/B	A	A	A/B	A	A	A	A	B/-	B	A	A	A	B/-
+271	f1	f1	S2	F3		A	A	A	B/-	A/B	B	B	A	A/B	B	B	B	B	B/-	B	B	B	B/-	B	B	B	B	A/B	A/B	A	A	A	A	B	B	B	B/-	B	A	A	B/-	B	B	B/-
+272	f1	f1	S2	F3		A	A	A	A	B	B	B	B	A/B	A/B	B	B	A	A	-	A	A/B	B/-	B	B	A/B	A/B	B	B	B	B	B	B	A	A	A	A	A	B/-	B	B/-	B	B	B/-
+273	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	B	B	A/B	B	A/B	B/-	-	A/B	A	B/-	-	A/B	A/B	A/B	A/B	A/B	A	A	A	A/B	A	A	A	A	A	A	A/B	B/-	A/B	A/B	B/-
+274	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	-	A/B	A	A	A	A/B	B/-	A/B	A/B	B	B/-	B	B	B	B	B	B	A	A	A	A	A	A	A	A	A	-	A	A	A	A	A
+275	f1	f1	S2	F3		A/B	B	B	B/-	B	B	B	B	A	A	A	A	B	B/-	-	B	B	A	A	A	A	A	A	A	B	B	B	B	A/B	A/B	A/B	B/-	A/B	B/-	B	A	A	-	A
+276	f1	f1	S2	F3		A	B	B	B/-	A	B	B	B	A	A/B	A/B	A/B	-	B/-	A/B	A	B	B/-	-	-	A/B	A/B	-	-	B	B	B	B	A/B	A/B	A/B	B/-	A/B	B/-	A/B	A	A	A	B/-
+277	f1	f1	S2	F3		B	B	B	B/-	B	B	B	B	A	A	A	A	A/B	B/-	A/B	A/B	A	A	A	A	A/B	A/B	A/B	B	B	B	A/B	A/B	B	A	A	A	A	A	A	B/-	B	A	A
+278	f1	f1	S2	F3		A	A	A	A	B	B	B	B	A/B	A/B	A/B	A/B	A	A	A	A	A/B	B/-	B	B	A	A	A/B	A/B	A	A	A/B	A/B	A/B	A/B	A/B	B/-	A/B	B/-	A/B	B/-	B	B	B/-
+279	f1	f1	S2	F3		A	A/B	A/B	B/-	B	B	B	B	A	A	A	A	A	A	A/B	B	B	B/-	B	B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	B/-	A	A	A
+280	f1	f1	S2	F3		A	A/B	-	B/-	A	A	A	A	A	A	A	B	A	A	A	A	A	A	A	A	A	A	A	B	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	A/B	A	A
+281	f1	f1	S2	F3		A/B	A/B	A/B	A	A	B	B	A/B	A/B	A	A/B	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	B	B	A/B	A/B	B	B	B	B/-	A/B	B/-	A	A	A	A	B/-
+282	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	B	A/B	A/B	A/B	A/B	B	B/-	B	B	B	B/-	A/B	A/B	A	A	A	A	A/B	A/B	B	A/B	A	A/B	A/B	B/-	B	B/-	B	B/-	B	B	B/-
+283	f1	f1	S2	F3		A/B	B	B	B/-	A	A	A	A	A/B	A/B	A/B	A/B	B	B/-	B	A	A	A	A	A	A	A	A	A	A	A	A	A/B	B	B	A	A	A/B	B/-	A/B	A	A	A	A
+284	f1	f1	S2	F3		B	A/B	A/B	B/-	A	A	A	A	A/B	A/B	A/B	A	B	B/-	B	B	B	B/-	B	B	A	A	A	A	A	B	B	B	B	A/B	A/B	A	A	A	A	B/-	A/B	A/B	B/-
+285	f1	f1	S2	F3		A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A/B	A/B	A/B	A/B	A	B	B	B/-	A/B	B/-	A/B	B/-	A	A/B	B/-
+286	f1	f1	S2	F3		A/B	A	-	B/-	B	B	A/B	A	A	A	A	A	B	B/-	B	B	B	B/-	A/B	A/B	A	A	A	A	A	A/B	B	B	B	B	B	B/-	B	B/-	A	A	A	A/B	B/-
+287	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	A	A	A	A	B/-	A/B	A/B	-	B/-	A/B	A/B	A	A	A	A	A	A	A	A	B	B	B	A	A	B/-	A/B	B/-	B	B	B/-
+288	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A	A	A/B	A/B	B	B	B	A/B	A	A	B	B	B	B/-	B	B/-	B	A	A	A	A
+289	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	A/B	A/B	A/B	A/B	B	A	A	A	A	A	A	A	A	A	A	A	A	-	A	A	A	B	B	B	B/-	B	B/-	B	A	A	A	B/-
+290	f1	f1	S2	F3		B	B	B	B/-	A	A	A	B	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	B	B	B	B	B	A/B	A/B	A/B	A/B	A/B	A/B	B/-	B	B/-	A	B/-	B	B	B/-
+291	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A/B	A/B	A	A	A	A/B	A/B	B	B	B/-	A/B	B/-	A/B	B/-	B	A/B	A
+292	f1	f1	S2	F3		B	B	B	B/-	A	A	A	A	A/B	A	A	A	B	B/-	B	B	B	B/-	-	B	B	-	-	A	A/B	A/B	A/B	A/B	A/B	B	B	B/-	B	B/-	B	B/-	A/B	A	A
+293	f1	f1	S2	F3		A	A	A	A	A/B	A/B	A	A	A/B	A	A	A	A	A	A	A	A/B	B/-	B	B	B	B	B	B	B	B	B	B	B	B	B	B/-	B	B/-	B	B/-	B	B	A
+294	f1	f1	S2	F3		B	A/B	A/B	B/-	A	A	A	A	B	B	A	A	A	A	A	A	A/B	A	A	A	A/B	A/B	A/B	A	A	A	A	A	A	A	A	A	A	B/-	B	B/-	B	A	A
+295	f1	f1	S2	F3		A	B	B	B/-	A	B	B	B	A/B	-	A	A	A	A	B	B	B	B/-	B	B	A	A	-	A	B	A/B	A	A	B	B	B	B/-	-	B/-	B	-	A/B	A/B	B/-
+296	f1	f1	S2	F3		B	A	A/B	A	B	B	B	B	A/B	A	A	A	-	B/-	A/B	-	A	A	-	A	A	-	-	-	B	A/B	A/B	A	A	A	A	B/-	A/B	B/-	B	A	A	A/B	B/-
+297	f1	f1	S2	F3		A/B	A/B	A/B	A	B	B	B	B	B	A	A	B	-	B/-	A/B	-	-	B/-	-	B	B	-	-	-	B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	B/-	B	B	B/-
+298	f1	f1	S2	F3		A	A	A	B/-	A/B	A/B	B	B	B	B	B	B	-	B/-	A/B	-	A	A	-	A	B	-	-	A/B	B	B	B	A/B	A	A	A	A	A	A	A	B/-	A	A	A
+299	f1	f1	S2	F3		B	B	B	B/-	A/B	A/B	A	A	B	A/B	A/B	B	A	A	A	A	A	B/-	B	B	B	B	B	B	A/B	A/B	A	A	A/B	A/B	A/B	B/-	A/B	A	A	B/-	A/B	A/B	A
+300	f1	f1	S2	F3		A/B	A/B	A/B	B/-	A/B	B	B	B	B	A/B	A/B	A/B	A	A	A	A	A	B/-	-	A/B	B	-	-	B	A/B	A/B	A/B	A/B	B	B	B	B/-	B	B/-	B	A	A	B	B/-
+301-145	238	238	S1	F4		B	A	A	A	A/B	B	B	B	A	A	A	A	B	B	B	B	B	A	A	A	A	A	A	A	B	B	B	B	B	A/B	B	B	B	B	B	B	B	A	A
+302-28	282	238	CR	C1		A	A	A	A	B	B	B	B	B/A	B/A	A	A	B	B	B	B	B	A	A	A	A	A	A	A	B	A/B	B	A/B	A/B	B	B	A/B	B	B	B	B/A	B	B/A	B/A

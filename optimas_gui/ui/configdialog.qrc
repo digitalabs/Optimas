@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../images/selection.png</file>
+        <file>../images/logo_optimas.png</file>
+        <file>../images/intermating.png</file>
+        <file>../images/prediction.png</file>
+	<file>../images/import.png</file>
+	<file>../images/export.png</file>
+	<file>../images/exit.png</file>
+	<file>../images/help.png</file>
+	<file>../images/target.png</file>
+	<file>../images/copyright.png</file>
+	<file>../images/ibp_logo.png</file>
+	<file>../images/moulon.png</file>
+	<file>../images/inra_gcp_logo.png</file>
+	<file>../images/information.png</file>
+	<file>../images/play.png</file>
+	<file>../images/biparental.png</file>
+	<file>../images/multiparental.png</file>
+	<file>../images/colour.png</file>
+	<file>../images/find.png</file>
+	<file>../images/plus.png</file>
+	<file>../images/minus.png</file>
+	<file>../images/view.png</file>
+	<file>../images/save_all.png</file>
+	<file>../images/palette.png</file>
+	<file>../images/weight.png</file>
+	<file>../images/tools.png</file>
+	<file>../images/clear.png</file>
+	<file>../images/zoom-in.png</file>
+	<file>../images/zoom-out.png</file>
+	<file>../images/zoom-original.png</file>
+	<file>../images/zoom-fit-best.png</file>
+    </qresource>
+</RCC>

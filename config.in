@@ -1,0 +1,15 @@
+# configuration file for install_optimas_on_linux.sh
+
+# Here you can specify absolute paths of qwt and graphviz include directories.
+# CAUTION: do no insert space caracters nor before neither after egual sign.
+# example: qwt_include_path=/usr/include/qwt-qt4
+# Don't specify anything if you want the script to perform a search.
+qwt_include_path=
+graphviz_include_path=
+
+# Here you can specify absolute paths of qwt and graphviz (libgvc.so) shared libraries.
+# example: graphviz_lib=/usr/lib/libgvc.so
+# Don't specify anything if you want the script to perform a search.
+qwt_lib_path=
+graphviz_lib_path=
+

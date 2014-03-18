@@ -1,0 +1,153 @@
+======================================================================
+Installation notes for OptiMAS Version 1.0
+======================================================================
+
+This file describes the building and installation instructions from the SOURCES for all supported systems.
+
+As ready-to-use binaries installation packages are provided for Windows and MacOSX platforms,
+we only describe the step for compiling OptiMAS binaries, without providing a "shell" script for these platforms.
+
+For GNU/Linux plateforms, use the "install_optimas_on_linux.sh" shell script to build and install OptiMAS on your system.
+
+Getting OptiMAS version 1.0 sources
+===================================
+
+Official web site: https://www.integratedbreeding.net/ib-tools/breeding-decision/optimas
+
+Supported Systems
+=================
+
+Will work in most modern GNU/Linux, Windows (XP or later),
+and MacOSX (10.5 or later with Intel processor) systems.
+
+Building Prerequisite
+=====================
+
+1. GNU compiler collections with c++ support (g++ version 4.0.1 or later)
+
+  http://gcc.gnu.org/
+
+2. Qt development package (version 4.4.3 or later)
+
+  http://qt.nokia.com/products/
+
+3. qwt development package version 5.X.X (version 6 IS NOT supported yet).
+
+  http://sourceforge.net/projects/qwt
+
+4. graphviz development package (version 2.20.2 or later)
+
+  http://www.graphviz.org/
+
+NB: Only the complete installation, including the Graphical User Interface (GUI), needs Qt, qwt and graphviz packages.
+
+Install
+=======
+
+   A. GNU/Linux (tested on Debian, Unbuntu and Fedora)
+
+	We STRONGLY recommand to have g++, make, Qt, qwt and graphviz installed via the
+	package manager of your GNU/linux distribution.
+	
+	e.g.:
+	
+	on Debian/Ubuntu plateforms (as root or sudoer):
+	apt-get install make
+	apt-get install g++
+	apt-get install libqt4-dev
+	apt-get install libqwt5-qt4-dev
+	apt-get install libgraphviz-dev
+	
+	on Redhat/Fedora/CentOS plateforms (as root or sudoer):
+	yum install make
+	yum install gcc-c++
+	yum install qt4-devel
+	yum install qwt-devel
+	yum install graphviz-devel
+
+	To build and install OptiMAS on linux platforms, open a terminal
+	and run the installation shell script:
+	
+	./install_optimas_on_linux.sh [--no-gui]
+	
+	As root (or sudoer), it will perform an installation for all users.
+	As a common user, it will perform a local install (user's personal directory).
+	
+	Use the « --no-gui » option as an argument, to install optimas, the command line interface analyse tool, without installing the GUI (optimas_gui).
+	
+	NB: if the installation script fails in finding qwt and/or graphviz
+	libraries paths on your system, you can specify them in the config.in file.
+
+	To uninstall OptiMAS, run the script uninstall_optimas.sh located in the same directory as optimas_gui and/or optimas binaries.
+
+   B. Windows (32 bits).
+	
+	1. Development environment:
+	   - Mingw or Visual C++ (VC) last release compiler suite.
+	   - Qt development kit (Mingw or VC version).
+	   - qwt and graphviz development packages.
+	
+	2. In the optimas directory, build optimas using make (installed with Mingw)
+	   or nmake -f makefile_vc (installed with VC).
+
+	3. In the optimas_gui directory:
+	 
+	 - Edit optimas_gui.pro and set INCLUDEPATH and LIBS
+	   variables in the win32 scope to specify qwt and
+	   graphviz include directories and libraries
+	   to be linked into the project.
+	 
+	 - generate the Makefile: qmake optimas_gui.pro
+	 
+	 - Build optimas_gui.exe: make release (with Mingw) or nmake release (with VC)
+	   => the binary is in the release directory
+
+	4. To run optimas_gui properly, the optimas executable (build at step 2) has to be placed in the software directory
+
+	5. To make an installation package we recommand to use Inno Setup software.
+	   files to include in the package: DLLs etc ... 
+
+   C. MacOSX (10.5 or newer with Intel architecture).
+
+	1. Development environment:
+
+	 - Get XCode (version 3.1.3 or later) and mac-port from official
+	   apple web site.
+	 - Install graphviz and qwt via mac-port (as root):
+	   sudo port install graphviz
+	   sudo port install qwt52
+	   
+	   NOTE: Installing from mac-port is much longer but much safer.
+	   This will install Qt as dependencies. 
+	
+	2. In the optimas directory, build optimas via the following command:
+	   make
+
+	3. In the optimas_gui directory:
+	 
+	 - Edit optimas_gui.pro and set INCLUDEPATH and LIBS
+	   variables in the macx scope to specify qwt and
+	   graphviz include directories and libraries
+	   to be linked into the project.
+	 
+	 - generate the makefile: qmake optimas_gui.pro
+	 
+	 - Build optimas_gui via make.
+	   => the binary is in optimas_gui.app/Contents/MacOS/
+	   
+	4. Copy optimas binary to the software/ folder.
+
+	5. Copy the doc/ input/ output/ website/ and software/ directories
+	   in optimas_gui.app/Contents/MacOS/
+
+	6. Join the Qt shared libraries to the optimas_gui.app package
+	   by running the following command:
+	   macdeployqt optimas_gui.app
+	   
+	7. graphviz dylib stuff ...
+
+
+NOTE: To launch analysis via the command line, it is not necessary
+to specify the complet path if the binaries (optimas and optimas_gui executable)
+directory is present in the PATH environment variable.
+

@@ -1,0 +1,50 @@
+#----------
+# MAKEFILE
+#----------
+
+PATH_OBJ=obj\
+PATH_SCR=src\
+PATH_HEADER=headers\
+PATH_BIN=bin\
+
+PROG=optimas.exe
+CC=cl.exe
+LINKER=link.exe
+#FLAGS       = -O3 -Wall -lm -Wextra -Wwrite-strings
+FLAGS=/EHsc
+
+OBJ= obj\main.obj obj\utils.obj obj\params.obj obj\markers.obj obj\gametes.obj obj\haplotypes.obj obj\individual.obj obj\results.obj
+
+
+
+#-----------------
+# EXECUTABLE RULE
+#-----------------
+
+optimas.exe: main.obj utils.obj params.obj markers.obj gametes.obj haplotypes.obj individual.obj results.obj
+	link /OUT:bin\optimas.exe obj\main.obj obj\utils.obj obj\params.obj obj\markers.obj obj\gametes.obj obj\haplotypes.obj obj\individual.obj obj\results.obj
+
+#---------------------------
+# GENERAL COMPILATION RULES
+#---------------------------
+
+main.obj: src\main.cpp headers\main.h headers\utils.h headers\params.h headers\markers.h headers\individual.h headers\gametes.h
+	cl /O2 /EHsc /Foobj\ -c src\main.cpp
+utils.obj: src\utils.cpp headers\utils.h
+	cl /O2 /EHsc /Foobj\ -c src\utils.cpp
+params.obj: src\params.cpp headers\utils.h headers\params.h
+	cl /O2 /EHsc /Foobj\ -c src\params.cpp
+markers.obj: src\markers.cpp headers\utils.h headers\params.h headers\markers.h
+	cl /O2 /EHsc /Foobj\ -c src\markers.cpp
+gametes.obj: src\gametes.cpp headers\utils.h headers\params.h headers\markers.h headers\gametes.h
+	cl /O2 /EHsc /Foobj\ -c src\gametes.cpp
+haplotypes.obj: src\haplotypes.cpp headers\utils.h headers\params.h headers\markers.h headers\gametes.h headers\haplotypes.h
+	cl /O2 /EHsc /Foobj\ -c src\haplotypes.cpp
+individual.obj: src\individual.cpp headers\utils.h headers\params.h headers\markers.h headers\gametes.h headers\haplotypes.h headers\individual.h
+	cl /O2 /EHsc /Foobj\ -c src\individual.cpp
+results.obj: src\results.cpp headers\utils.h headers\params.h headers\markers.h headers\individual.h headers\results.h
+	cl /O2 /EHsc /Foobj\ -c src\results.cpp
+
+clean:
+	del obj\*.obj
+	del bin\optimas.exe

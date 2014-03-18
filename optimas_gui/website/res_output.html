@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>- OptiMAS - decision support for marker-assisted selection</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="css/2col.css" title="2col" />
+<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="css/1col.css" title="1col" />
+<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="css/main-ie6.css" /><![endif]-->
+<link rel="stylesheet" media="screen,projection" type="text/css" href="css/style.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="css/mystyle.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/switcher.js"></script>
+<script type="text/javascript" src="js/toggle.js"></script>
+<script type="text/javascript" src="js/ui.core.js"></script>
+<script type="text/javascript" src="js/ui.tabs.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".tabs > ul").tabs();
+	});
+	</script>
+</head>
+<body>
+<div id="main">
+  <!-- Tray -->
+  <div id="tray" class="box">
+    <p class="f-left box">
+      <!-- Switcher -->
+      <span class="f-left" id="switcher"> <a href="javascript:void(0);" rel="1col" class="styleswitch ico-col1" title="Display one column"><img src="design/switcher-1col.gif" alt="1 Column" /></a> <a href="javascript:void(0)" rel="2col" class="styleswitch ico-col2" title="Display two columns"><img src="design/switcher-2col.gif" alt="" /></a> </span><strong>OptiMAS: a decision support tool to conduct marker-assisted recurrent selection programmes</strong> </p>
+      <p class="f-right">Last release: <strong>OptiMAS v1.4 (Jan. 24th, 2013)</strong></p>
+  </div>
+  <!--  /tray -->
+  <hr class="noscreen" />
+  <!-- Menu -->
+  <div id="menu" class="box">
+    <ul class="box f-right">
+      <li><a href="https://www.integratedbreeding.net/"><span><strong>Visit IBP Site &raquo;</strong></span></a></li>
+    </ul>
+    <ul class="box">
+      <!-- Active -->
+      <li><a href="index.html"><span>Home</span></a></li>
+      <li><a href="download.html"><span>Download</span></a></li>
+      <li><a href="contact.html"><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <!-- /header -->
+  <hr class="noscreen" />
+  <!-- Columns -->
+  <div id="cols" class="box">
+    <!-- Aside (Left Column) -->
+    <div id="aside" class="box">
+      <div class="padding box">
+        <!-- Logo (Max. width = 200px) -->
+        <p id="logo"><img src="tmp/logo_optimas.png" alt="" /></p>
+      </div>
+      <!-- /padding -->
+      <ul class="box">
+		<li class="submenu-active"><a>OptiMAS</a></li>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="download.html">Download</a></li>
+		<li><a href="screenshots.html">Screenshots</a></li>
+		<li><a href="citation.html">Papers &amp; Presentations</a></li>
+		<li><a href="contact.html">Contact &amp; Support</a></li>
+		<li><a href="news.html">What's New</a></li>
+		<li class="submenu-active"><a>Online Help</a></li>
+		<li><a href="install.html"><strong>Installation procedure</strong></a>
+	  		<ul>
+            	<li><a href="install_cmd.html">OptiMAS in command line</a></li>
+            	<li><a href="install_gui.html">OptiMAS GUI</a></li>
+	  		</ul>
+		</li>
+        <li><a href="data_preparation.html"><strong>Data preparation</strong></a>
+	  		<ul>
+            	<li><a href="genotype.html">Genotypes/Pedigree file (.dat)</a></li>
+				<li><a href="map.html">Genetic Map (.map)</a></li>
+	  		</ul>
+		</li>
+		<li><a href="optimas_cmd.html"><strong>OptiMAS in command line</strong></a>
+	  		<ul>
+            	<li><a href="run_cmd.html">Running OptiMAS in cmd line</a></li>
+				<li><a href="res_output.html">Results &amp; Output files</a></li>
+	  		</ul>
+		</li>
+		<li><a><strong>OptiMAS GUI</strong></a>
+	  		<ul>
+            	<li><a href="run_gui.html">Running OptiMAS GUI</a></li>
+				<li><a href="step1.html">Step1 - Prediction</a></li>
+				<li><a href="step2.html">Step2 - Selection</a></li>
+				<li><a href="step3.html">Step3 - Intermating</a></li>
+				<li><a href="save_reload.html">Saving/Reloading</a></li>
+				<li><a href="tools.html">Tools</a></li>
+	  		</ul>
+		</li>
+	  </ul>
+	<p class="centrer"><img src="tmp/valid-xhtml10.png" alt="Valid XHTML 1.0 Strict" height="31" width="88" /><img style="border:0;width:88px;height:31px" src="tmp/vcss-blue.gif" alt="CSS Valide !" /></p>
+	<p class="centrer"><a href="http://www.inra.fr"><img src="tmp/logo_inra.png" alt="logo_inra" /></a><a href="https://www.integratedbreeding.net/"><img src="tmp/logo_ibp.png" alt="logo_ibp" /></a></p>
+	<p class="centrer"><a href="http://www.generationcp.org/"><img src="tmp/logo_gcp.png" alt="logo_gcp" /></a><a href="http://moulon.inra.fr"><img src="tmp/logo_moulon.png" alt="logo_moulon" /></a></p>
+    </div>
+    <!-- /aside -->
+    <hr class="noscreen" />
+    <!-- Content (Right Column) -->
+    <div id="content" class="box">
+      <h1>Results and output files interpretation (OptiMAS in command line)</h1>
+	  <p>As the program continues to run, it keeps you informed of progress. At the end of a run, questionable results (likely genotyping error regarding pedigree) may be displayed in the file [output_folder/date/events_summary.log]. It is recommended to always look at it before any interpretation and/or breeding decision. OptiMAS produces sets of files described below.<p>
+
+	  <!-- Tabs -->
+      <div class="tabs box">
+        <ul>
+          <li><a href="#tab_diplo_set"><span>_diplotypes_set</span></a></li>
+          <li><a href="#tab_gametes_set"><span>_gametes_set</span></a></li>
+          <li><a href="#tab_homo_hetero"><span>tab_homo_hetero</span></a></li>
+		  <li><a href="#tab_scores"><span>tab_scores</span></a></li>
+		  <li><a href="#tab_parents"><span>tab_parents</span></a></li>
+		  <li><a href="#tab_check_diplo"><span>tab_check_diplo</span></a></li>
+		  <li><a href="#tab_events"><span>events_summary</span></a></li>
+        </ul>
+      </div>
+      <!-- /tabs -->
+      <!-- Tab DIPLOTYPES SET -->
+      <div id="tab_diplo_set">
+		<h2>_diplotypes_set: probabilities of phased genotypes</h2>
+        <p>Taking into account all information available (pedigree, distance between loci, molecular markers), OptiMAS computes for each QTL the probability of all possible phased genotypes (diplotypes). A diplotype is defined as the union of a pair of unambiguous haplotypes corresponding to parental gametes.</p>
+		<p>Results for each QTL (designated as <i>x</i>) are stored in a specific folder named "qtl<i>x</i>". Files [output_folder/date/each_qtl/qtl<i>x</i>/qtl<i>x</i>_diplotypes_set.txt] contain probabilities for diplotypes according to the following structure:</p>
+		<p><img src="tmp/fig3.png" alt="Figure 3: diplotypes set"><br/><b><i>Figure 3: probabilities of phased genotypes (diplotypes) for each individual at QTL1</i></b></p>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>#QTL:</b> index of the QTL.</p>
+		<p><b>Id:</b> corresponds to the name of each individual.</p>
+		<p><b>haplo1, haplo2:</b> possible pair of haplotypes (ie. phased genotype, also called diplotype) defined according to parental origin.</p>
+		<p><b>read1, read2:</b> translation of haplo1 and haplo 2 in terms of observed marker alleles. Note that a given (read1, read2) combination may correspond to several (haplo1, haplo2) combinations.</p>
+		<p><b>proba:</b> probability of this specific possible phased genotype (diplotype).</p>
+		<p><b>nb_haplo:</b> number of possible diplotypes corresponding to theindividual.</p>
+		<p><u>Note</u>: At the QTL 1, the individual IL1_IL2_F2 has 24 possible phased genotypes. One of them [1], which is the most likely given observed marker data, has a probability of 0.69. This genotype is (a/a) at the QTL position (3rd locus, see map file) and its full genotype (all loci: QTL and associated markers) is aaaaa/aaaaa. The individual Ind2 has more possible phased genotypes than Ind1 (Ind1 - 118, Ind2 - 218) because it was not genotyped (all possible diplotypes are considered).</p> 
+      </div>
+      <!-- /tab_diplo_set -->
+      <!-- Tab GAMETES SET -->
+      <div id="tab_gametes_set">
+		<h2>_gametes_set: probabilities of gametes</h2>
+        <p>The previous section underlined all the possible phased genotypes, along with their probabilities, taking into account the pedigree of individuals and their genotypes. With this information, OptiMAS determines, at each QTL, the set of possible gametes produced by each individual and estimates their probabilities.</p>
+		<p>Results for each QTL (designated as <i>x</i>) are stored in a specific folder named "qtl<i>x</i>". Files [output_folder/date/each_qtl/qtl<i>x</i>/qtl<i>x</i>_gametes_set.txt] contain probabilities for gametes according to the following structure:</p>
+		<p><img src="tmp/fig4.png" alt="Figure 4: gametes set"><br/><b><i>Figure 4: probabilities of gametes for each individual at QTL1</i></b></p>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>#QTL:</b> index of the QTL.</p>
+		<p><b>Id:</b> corresponds to the name of each individual.</p>
+		<p><b>gamete:</b> possible  gamete defined according to parental origin.</p>
+		<p><b>read:</b> translation of gamete in terms of observed marker alleles. Note that a given read may correspond to several gametes.</p>
+		<p><b>proba:</b> probability of this specific possible gamete.</p>
+		<p><b>nb_gam:</b> number of possible gametes corresponding to the individual.</p>
+		<p><u>Note</u>: At the QTL number 1, the individual IL1_IL2_F1 has a probability of 100% to be heterozygous aaaaa/bbbbb (see previous section). In this case, the five loci are heterozygous and the number of possible gametes is 25 = 32. These 32 possible gametes have different probabilities depending on the recombination rates calculated from genetic distances (Haldane's map function used). The highest probability is that of non recombinant gametes (0.32 for both "aaaaa" and "bbbbb").</p>
+      </div>
+      <!-- /tab_gametes_set -->
+      <!-- Tab HOMO HETERO -->
+      <div id="tab_homo_hetero">
+		<h2>tab_homo_hetero: probabilities to be homozygous or heterozygous at the QTL positions</h2>
+		<h3>1. based on favorable / unfavorable allele grouping</h3>
+        <p>Based on the phased genotype information (qtl<i>x</i>_haplotypes_set files), the probabilities to be homozygous / heterozygous, at the QTL positions, are computed according to favorable / unfavorable grouping of founder alleles (i.e. IL1- "a", IL2- "b", IL3 - "c", IL4- "d").</p>
+		<p>The structure for this file [output/date/tab_homo_hetero.txt] can be represented as follows:</p>
+		<!-- Table (TABLE) -->
+		<table>
+			<tr><th>Id</th><th>MS</th><th><center>All<br/>(+/+)</center></th><th><center>All<br/>(-/-)</center></th><th><center>All<br/>(+/-)</center></th><th><center>QTL1<br/>(+/+)</center></th><th><center>QTL1<br/>(-/-)</center></th><th><center>QTL1<br/>(+/-)</center></th><th><center>QTL2<br/>(+/+)</center></th><th><center>...</center></th><td></td></tr>
+			<tr><td>IL1</td><td>0.33333</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>...</td><td><b>[2]</b></td></tr>
+			<tr class="bg"><td>IL2</td><td>0.33333</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>1.00000</td><td>...</td></tr>
+			<tr><td>IL3</td><td>0.33333</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>1.00000</td><td>...</td></tr>
+			<tr class="bg"><td>IL4</td><td>0.33333</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>0.00000</td><td>...</td></tr>
+			<tr><td>IL1_IL2_F1</td><td>0.33333</td><td>0.00000</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>...</td></tr>
+			<tr class="bg"><td>IL3_IL4_F1</td><td>0.33333</td><td>0.00000</td><td>0.33333</td><td>0.66666</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>0.00000</td><td>...</td></tr>
+			<tr><td>IL1_IL2_F2</td><td>0.66137</td><td>0.65614</td><td>0.33333</td><td>0.01047</td><td>0.98658</td><td>0.00003</td><td>0.01335</td><td>0.98184</td><td>...</td></tr>
+			<tr class="bg"><td>IL3_IL4_F2</td><td>0.58105</td><td>0.49645</td><td>0.33422</td><td>0.16919</td><td>0.00000</td><td>0.99996</td><td>0.00000</td><td>0.89854</td><td>...</td><td><b>[1]</b></td></tr>
+			<tr><td>Ind1</td><td>0.58804</td><td>0.31309</td><td>0.13700</td><td>0.54989</td><td>0.00000</td><td>0.00671</td><td>0.99328</td><td>0.93928</td><td>...</td><td><b>[3]</b></td></tr>
+			<tr class="bg"><td>Ind2</td><td>0.62126</td><td>0.31309</td><td>0.07055</td><td>0.61634</td><td>0.00000</td><td>0.00670</td><td>0.99328</td><td>0.93928</td><td>...</td></tr>
+		</table>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>QTL<i>x</i> (+/+):</b> probability to be homozygous for a favorable allele at the QTL position or to be heterozygous with two different favorable alleles (when several parental alleles are considered as favorable).</p>
+		<p><b>QTL<i>x</i> (-/-):</b> probability to be homozygous for an unfavorable allele at the QTL position or to be heterozygous with two different unfavorable alleles (when several parental alleles are considered as unfavorable).</p>
+		<p><b>QTL<i>x</i> (+/-):</b> probability to be heterozygous at the QTL position (one favorable allele with one unfavorable).</p>
+		<p><b>All(+/+), All(+/-), All(-/-):</b> mean of previous  probabilities for all QTL together.</p>
+		<p><b>MS (Molecular Score):</b> expected proportion of favorable alleles over all QTL (MS=All(++) + 0.5All(+-), see tab_scores).</p>
+		<p><u>Note</u>:<br/>
+		<b>[1]</b> Individual IL3_IL4_F2 has a probability of 0.99996 to be homozygous unfavorable at QTL1. The sum of the probabilities (QTL1(+/+) + QTL1(-/-) + QTL1(+/-)) is not 1.0 because some rare phased genotypes were removed via the cut-off by default (see tab_check_diplo).<br/>
+		<b>[2]</b> The individual "IL1" has a molecular score of 0.333 because it is 100% homozygous favorable for the QTL1 and 0% for the two other QTL.<br/>
+		<b>[3]</b> Individual "Ind1" has a MS of 0.588 considering information at all three QTL:</p>
+		<table>
+			<tr><th>Id</th><th>MS</th><th><center>All<br/>(+/+)</center></th><th><center>All<br/>(-/-)</center></th><th><center>All<br/>(+/-)</center></th><th><center>QTL1<br/>(+/+)</center></th><th><center>QTL1<br/>(-/-)</center></th><th><center>QTL1<br/>(+/-)</center></th><th><center>QTL2<br/>(+/+)</center></th><th><center>QTL2<br/>(-/-)</center></th><th><center>QTL2<br/>(+/-)</center></th><th><center>QTL3<br/>(+/+)</center></th><th><center>QTL3<br/>(-/-)</center></th><th><center>QTL3<br/>(+/-)</center></th></tr>
+			<tr><td>Ind1</td><td>0.588</td><td>0.313</td><td>0.137</td><td>0.549</td><td>0.000</td><td>0.006</td><td>0.993</td><td>0.939</td><td>0.000</td><td>0.060</td><td>0.000</td><td>0.403</td><td>0.596</td></tr>
+		</table>
+		<p>&nbsp;</p>
+		<h3>2. in terms of parental alleles</h3>
+		<p>In a multi-allelic context, several parental alleles can be regrouped and considered as favorable at the QTL position (see the summarized table above). Nevertheless, it can be interesting in some cases to know the detailed probabilities of the possible genotypes in terms of the parental origin of alleles.</p>
+		<p>Results for each QTL (designated as <i>x</i>) are stored in a specific folder named "qtl<i>x</i>". Files [output_folder/date/each_qtl/qtl<i>x</i>/qtl<i>x</i>_homo_hetero.txt] contain details about parental allele origins at QTL positions according to the following structure (QTL 2 example):</p>
+		<pre class="tit">
+<b>IL1</b>
+Homo(+/+)  = 0.000000
+Hetero(+/-)= 0.000000
+Homo(-/-)  = 1.000000   a:a = 1.000000
+
+<b>IL2</b>
+Homo(+/+)  = 1.000000   b:b = 1.000000
+Hetero(+/-)= 0.000000
+Homo(-/-)  = 0.000000
+
+<b>IL3</b>
+Homo(+/+)  = 1.000000   c:c = 1.000000
+Hetero(+/-)= 0.000000
+Homo(-/-)  = 0.000000
+
+<b>IL4</b>
+Homo(+/+)  = 0.000000
+Hetero(+/-)= 0.000000
+Homo(-/-)  = 1.000000   d:d = 1.000000
+
+<b>IL1_IL2_F1</b>
+Homo(+/+)  = 0.000000
+Hetero(+/-)= 1.000000   a:b = 1.000000
+Homo(-/-)  = 0.000000
+
+<b>IL3_IL4_F1</b>
+Homo(+/+)  = 0.000000
+Hetero(+/-)= 1.000000   c:d = 1.000000
+Homo(-/-)  = 0.000000
+
+<b>IL1_IL2_F2</b>
+Homo(+/+)  = 0.981847   b:b = 0.981847
+Hetero(+/-)= 0.018057   a:b = 0.018057
+Homo(-/-)  = 0.000082   a:a = 0.000082
+
+<b>IL3_IL4_F2</b>
+Homo(+/+)  = 0.898542   c:c = 0.898542
+Hetero(+/-)= 0.098733   c:d = 0.098733
+Homo(-/-)  = 0.002710   d:d = 0.002710
+
+<b>Ind1
+Homo(+/+)  = 0.939286   b:c = 0.939286</b>
+Hetero(+/-)= 0.060239   a:c = 0.008636   b:d = 0.051602
+Homo(-/-)  = 0.000474   a:d = 0.000474
+
+<b>Ind2</b>
+Homo(+/+)  = 0.939286   b:c = 0.939286
+Hetero(+/-)= 0.060239   a:c = 0.008636   b:d = 0.051602
+Homo(-/-)  = 0.000474   a:d = 0.000474
+</pre>
+		<p>Note: at QTL2 position, favorable alleles are "b" and "c" (see <a href="map.html">.map file</a>). Individual "Ind1" has a very high probability to be homozygous favorable Homo(+/+) = 0.939286. We can see that this is due to a high probability of being heterozygous for favorable alleles "b" and "c" (b:c = 0.939286).</p>
+      </div>
+      <!-- /tab_homo_hetero -->
+      <!-- Tab SCORES -->
+      <div id="tab_scores">
+		<h2>tab_scores: prediction of genetic values</h2>
+        <p>This table summarizes and presents the molecular scores for each/all QTL and additional indexes of interest. The default structure of this file [output_folder/date/tab_scores.txt] can be represented as follows:</p>
+		<!-- Table (TABLE) -->
+		<table>
+			<tr><th>Id</th><th>MS</th><th>Weight</th><th>UC</th><th>No.(+/+)</th><th>No.(-/-)</th><th>No.(+/-)</th><th>No.(?)</th><th>QTL1</th><th>QTL2</th><th>QTL3</th></tr>
+			<tr><td>IL1</td><td>0.3333</td><td>0.3333</td><td>1.0000</td><td>1</td><td>2</td><td>0</td><td>0</td><td>1.0000</td><td>0.0000</td><td>0.0000</td></tr>
+			<tr class="bg"><td>IL2</td><td>0.3333</td><td>0.3333</td><td>1.0000</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0.0000</td><td>1.0000</td><td>0.0000</td></tr>
+			<tr><td>IL3</td><td>0.3333</td><td>0.3333</td><td>1.0000</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0.0000</td><td>1.0000</td><td>0.0000</td></tr>
+			<tr class="bg"><td>IL4</td><td>0.3333</td><td>0.3333</td><td>1.0000</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0.0000</td><td>0.0000</td><td>1.0000</td></tr>
+			<tr><td>IL1_IL2_F1</td><td>0.3333</td><td>0.3333</td><td>1.7071</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0.5000</td><td>0.5000</td><td>0.0000</td></tr>
+			<tr class="bg"><td>IL3_IL4_F1</td><td>0.3333</td><td>0.3333</td><td>1.7071</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0.0000</td><td>0.5000</td><td>0.5000</td></tr>
+			<tr><td>IL1_IL2_F2</td><td>0.6613</td><td>0.6613</td><td>1.9841</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0.9932</td><td>0.9908</td><td>0.0000</td></tr>
+			<tr class="bg"><td>IL3_IL4_F2</td><td>0.5810</td><td>0.5810</td><td>1.7431</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0.0000</td><td>0.9479</td><td>0.7952</td></tr>
+			<tr><td>Ind1</td><td>0.5880</td><td>0.5880</td><td>2.4712</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0.4966</td><td>0.9694</td><td>0.2980</td></tr>
+			<tr class="bg"><td>Ind2</td><td>0.6212</td><td>0.6212</td><td>2.5709</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0.4966</td><td>0.9694</td><td>0.3977</td></tr>
+		</table>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>QTL<i>x</i>:</b> expected proportion of favorable allele (as defined after grouping) at QTL<i>x</i>, i.e. 1, 0.5, 0.0 for individuals with genotypes +/+, +/- and -/-, respectively (see table homo_hetero).</p>
+		<p><b>MS - Molecular Score:</b> expected proportion of favorable alleles over all QTL, i.e. the average of QTLx values. MS varies between 0 for an individual which does not carry any of the favorable alleles to 1 for an individual which is homozygote for the favorable alleles (i.e. it corresponds to the target genotype).</p>
+		<p><b>Weight (weighted MS):</b> weighted average of QTLx values, to give more or less importance to the different QTL (only used via the GUI).
+		<p><b>UC - Utility criterion:</b> combines the molecular score with the expected variance of the MS of the gametes that can be produced by the individual. UC is based on the estimation of the expected number of favorable alleles carried by the superior 5% gametes produced by the individual. For a same MS, this criterion favors individuals with no unfavorable alleles fixed. This score ranges from 0 to the number of QTL. Note that present version of UC estimation assumes independence between QTL and should be considered as only indicative in case of linked QTL. It also assumes that the distribution of scores can be approximated by a normal distribution (which is not valid in case of small number of heterozygous QTL).</p>
+		<p><b>No.(+/+):</b> number of QTL homozygous for favorable allele(s). A given QTL is considered as homozygous for favorable allele(s) when prob (+/+) exceeds a default threshold value of 0.75. This threshold can be modified via the GUI (see Fig. 9) resulting in an update of this column.</p>
+		<p><b>No.(-/-):</b> number of QTL homozygous for unfavorable allele(s). A given QTL is considered as homozygous for unfavorable allele(s) when prob (-/-) exceeds a default threshold value of 0.75. This threshold can be modified via the GUI (see Fig. 9) resulting in an update of this column.</p>
+		<p><b>No.(+/-):</b> number of QTL heterozygous with both favorable and unfavorable allele(s). A given QTL is considered to belong to this category when prob (+/-) exceeds a default threshold value of 0.75. This threshold can be modified via the GUI (see Fig. 9) resulting in an update of this column.</p>
+		<p><b>No.(?):</b> number of QTL defined as uncertain. Concerns QTL which are not attributed to any of the three previous categories.</p>
+		<p><u>Note</u>: At QTL1, individual IL1_IL2_F1 has a 100% probability to be heterozygous aaaaa/bbbbb (see section 4.2.1). The genotype at this QTL position is "a/b" (3rd locus) and "a" is the favorable allele. The molecular score for this individual will be: MSQTL1 = [p("a/b") x dose] / 2 = (1 x 1) / 2 = 0.5. The genetic value of the individual ("MS" column) is obtained by averaging the molecular score for all QTL: MS = (0.5 + 0.5 + 0.0) / 3 = 0.33.</p>
+      </div>
+      <!-- /tab_scores -->
+      <!-- Tab PARENTS -->
+      <div id="tab_parents">
+		<h2>tab_parents: estimated probabilities of parental alleles</h2>
+        <p>Beyond global scores presented above, it can be interesting to display the probability of having received a given parental allele at individual QTL positions and globally across QTL.</p>
+		<p>The default structure for this file [output_folder/date/tab_parents.txt] can be represented as follows:</p>
+		<!-- Table (TABLE) -->
+		<table>
+			<tr><th>Id</th><th>MS</th><th><center>All<br/>(a)</center></th><th><center>All<br/>(b)</center></th><th><center>All<br/>(c)</center></th><th><center>All<br/>(d)</center></th><th><center>QTL1<br/>(a)</center></th><th><center>QTL1<br/>(b)</center></th><th><center>QTL1<br/>(c)</center></th><th><center>QTL1<br/>(d)</center></th><th>...</th></tr>
+			<tr><td>IL1</td><td>0.3333</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>...</td></tr>
+			<tr class="bg"><td>IL2</td><td>0.3333</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>...</td></tr>
+			<tr><td>IL3</td><td>0.3333</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>...</td></tr>
+			<tr class="bg"><td>IL4</td><td>0.3333</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>1.0000</td><td>...</td></tr>
+			<tr><td>IL1_IL2_F1</td><td>0.3333</td><td>0.5000</td><td>0.5000</td><td>0.0000</td><td>0.0000</td><td>0.5000</td><td>0.5000</td><td>0.0000</td><td>0.0000</td><td>...</td></tr>
+			<tr class="bg"><td>IL3_IL4_F1</td><td>0.3333</td><td>0.0000</td><td>0.0000</td><td>0.5000</td><td>0.5000</td><td>0.0000</td><td>0.0000</td><td>0.5000</td><td>0.5000</td><td>...</td></tr>
+			<tr><td>IL1_IL2_F2</td><td>0.6613</td><td>0.5992</td><td>0.4007</td><td>0.0000</td><td>0.0000</td><td>0.9932</td><td>0.0067</td><td>0.0000</td><td>0.0000</td><td>...</td></tr>
+			<tr class="bg"><td>IL3_IL4_F2</td><td>0.5810</td><td>0.0000</td><td>0.0000</td><td>0.5507</td><td>0.4491</td><td>0.0000</td><td>0.0000</td><td>0.4999</td><td>0.4999</td><td>...</td></tr>
+			<tr><td>Ind1</td><td>0.5880</td><td>0.3328</td><td>0.1671</td><td>0.2332</td><td>0.2667</td><td>0.4966</td><td>0.0033</td><td>0.0237</td><td>0.4762</td><td>...</td></tr>
+			<tr class="bg"><td>Ind2</td><td>0.6212</td><td>0.2996</td><td>0.2003</td><td>0.2754</td><td>0.2245</td><td>0.4966</td><td>0.0033</td><td>0.2499</td><td>0.2499</td><td>...</td></tr>
+		</table>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>QTL<i>x</i>(parental allele):</b> expected proportion of parental allele at QTL<i>x</i>.</p>
+		<p><b>All(parental allele):</b> average of QTL<i>x</i> values over all QTL.</p>
+		<p><b>MS (Molecular Score):</b> expected proportion of favorable alleles over all QTL.</p>
+      </div>
+      <!-- /tab_parents -->
+      <!-- Tab CHECK DIPLO -->
+      <div id="tab_check_diplo">
+		<h2>tab_check_diplo: sum of phased genotypes probabilities (with the cut-off)</h2>
+        <p>Within OptiMAS, some algorithms such as selfing may become memory and/or time consuming depending on the complexity of your MAS design. To overcome this "problem" it is possible to use a cut-off on the probability of keeping a phased genotype (i.e. cut-off diplotypes = 0.000001 by default). Thus, rare phased genotypes are discarded in probability computation, which considerably reduces the computation time. At the end of a run, a file [output_folder/date/tab_check_diplo.txt] is created evaluate the impact of cut-off on such eliminations, at individual QTL locations and globally. The default structure for this file can be represented as follows:</p>
+		<!-- Table (TABLE) -->
+		<table>
+			<tr><th>Id</th><th>MS</th><th>All</th><th>QTL1</th><th>QTL2</th><th>QTL3</th></tr>
+			<tr><td>IL1</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr class="bg"><td>IL2</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr><td>IL3</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr class="bg"><td>IL4</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr><td>IL1_IL2_F1</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr class="bg"><td>IL3_IL4_F1</td><td>0.333333</td><td>1.000000</td><td>1.000000</td><td>1.000000</td><td>1.000000</td></tr>
+			<tr><td>IL1_IL2_F2</td><td>0.661379</td><td>0.999948</td><td>0.999975</td><td>0.999987</td><td>0.999883</td></tr>
+			<tr class="bg"><td>IL3_IL4_F2</td><td>0.581056</td><td>0.999879</td><td>0.999962</td><td>0.999985</td><td>0.999688</td></tr>
+			<tr><td>Ind1</td><td>0.588043</td><td>0.999998</td><td>0.999996</td><td>0.999999</td><td>1.000000</td></tr>
+			<tr class="bg"><td>Ind2</td><td>0.621266</td><td>0.999992</td><td>0.999983</td><td>0.999999</td><td>0.999994</td></tr>
+		</table>
+		<p><u>Columns of this file correspond to</u>:</p>
+		<p><b>QTL<i>x</i>:</b> sum of the probabilities to be homozygous (un)favorable and heterozygous at each QTL position, as displayed in the file "tab_homo_hetero.txt". When the "QTL" column is close to one, the sum of probabilities of removed diplotypes (via the cut-off) is negligible.</p>
+		<p><b>All:</b> refers to the mean for all QTL.</p>
+		<p><b>MS (Molecular Score):</b> expected proportion of favorable alleles over all QTL.</p>
+      </div>
+      <!-- /tab_check_diplo -->
+      <!-- Tab EVENTS -->
+      <div id="tab_events">
+		<h2>events_summary.log: questionable results</h2>
+        <p>Questionable results are displayed in the file [output_folder/date/events_summary.log] (see below). <b>It is recommended to always check it before any interpretation (if a warning message appeared)</b>. An empty file means that no errors have been found during the execution. Otherwise, this file contains the name of individuals with questionable genotypes at considered QTL positions. These are defined as individual x QTL combinations for which no diplotype passing the cut-off threshold could be found. Three main causes can be distinguished:</p>
+		<p>- Individuals have genotype data inconsistent in light of their ancestry (which may reveal either a genotyping error or an error in the declared pedigree).</p>
+		<p>- Individuals display very unlikely genotypes relative to their parents (i.e. genotypes that can only be obtained assuming unlikely recombination events).</p>
+		<p>- The cut off (threshold value) set by user for keeping diplotypes is too high.</p>
+		<pre class="tit">
+SUMMARY [Questionable results at markers/QTL sorted by Id]
+--
+Id: ind1	P1: 115_1	 P2: 115_2	Cycle:F1	QTL: 1 2
+Id: ind4	P1: 1814	 P2: 115	Cycle:F1	QTL: 1
+Id: ind33	P1: 1145	 P2: 115	Cycle:F1	QTL: 1 3
+Id: ind777	P1: 3734	 P2: 3902	Cycle:F2	QTL: 1 4 7
+		</pre>
+		<p>Note that a genotyping error at generation <i>n</i> affects the results for its progeny even if at generation <i>n+1</i>, individuals at this generation have correct genotypes. See the <a href="tools.html">tools</a> section for more details on the procedure to adopt in case of a warning message at the end of a run.</p>
+      </div>
+      <!-- /tab_events -->
+	  <p>&nbsp;</p>
+    </div>
+    <!-- /content -->
+  </div>
+  <!-- /cols -->
+  <hr class="noscreen" />
+  <!-- Footer -->
+  <div id="footer" class="box">
+    <p class="f-left">&copy; 2009 <u>OptiMAS</u>, All Rights Reserved &reg;</p>
+	<!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment/ -->            
+    <p class="f-right"><a href="http://www.adminzio.com/">Adminzio</a> is Free <a href="http://www.adminzio.com/">Admin template</a> provided by <a href="http://www.nuviotemplates.com/">Nuvio Templates</a> available for download at <a href="http://www.nuviotemplates.com/admin-templates/">Admin Templates</a></p>
+    <!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment/ -->
+  </div>
+  <!-- /footer -->
+</div>
+<!-- /main -->
+</body>
+</html>

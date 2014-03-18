@@ -1,0 +1,64 @@
+=======================================================================
+Release notes for OptiMAS Version 1
+=======================================================================
+Visit https://www.integratedbreeding.net/ib-tools/breeding-decision/optimas
+for information on the last release.
+
+Files and directories
+=====================
+In the package, files are organized as follows:
+
+  -+- README:    This file
+   |
+   +- INSTALL:   Building and installation instructions from the sources for all supported systems.
+   |
+   +- COPYING:   License
+   |
+   +- AUTHORS:   List of authors
+   |
+   +- optimas/ --> sources and makefile to build optimas (computational module)
+   |
+   +- optimas_gui/ --> sources and other files to build the GUI.
+   |  |
+   |  +- doc/ --> User manual and a tutorial in PDF format.
+   |  |
+   |  +- input/ --> moreau and blanc input sample data (genetic map and individuals data), ready to be analysed.
+   |  |
+   |  +- output/ --> moreau and blanc output sample data obtained from a further analysis using OptiMAS, and that can be reloaded in the GUI.
+   |  |
+   |  +- website/ --> local html version of the documentation.
+   |
+   +- install_optimas_on_linux.sh --> installation shell script on GNU/Linux system (see INSTALL file).
+
+
+Usage
+=====
+
+1. Using OptiMAS from the command line
+---------------------------------------
+
+   /path/to/optimas [list_of_arguments] (see the NOTE below)
+
+see OptiMAS documentation for more details.
+
+2. Using OptiMAS from Session Monitor GUI
+----------------------------------------
+   
+   On linux systems
+   From a terminal: /path/to/optimas_gui (see the NOTE below)
+   or double-click on optimas_gui in your file browser.
+
+   On windows systems:
+   Launch optimas_gui via the "start menu" or the desktop shortcut.
+
+   On MacOSX systems:
+   Launch optimas_gui by a (double)click on the optimas_gui icon.
+   in your file browser.
+
+NOTE: It is not necessary to specify the complet path if the binaries
+(optimas and optimas_gui executable) directory is present in the PATH
+environment variable.
+
+
+
+
